@@ -1,0 +1,3799 @@
+fileFormatVersion: 2
+guid: 40386283e35794340a9e3395215733f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -871636010789764854
+    second: hexagonObjects_sheet_0
+  - first:
+      213: 2064013768271249972
+    second: hexagonObjects_sheet_1
+  - first:
+      213: -8216928234247516682
+    second: hexagonObjects_sheet_2
+  - first:
+      213: 6469739710458098864
+    second: hexagonObjects_sheet_3
+  - first:
+      213: 155210493099736258
+    second: hexagonObjects_sheet_4
+  - first:
+      213: -6129025110461057376
+    second: hexagonObjects_sheet_5
+  - first:
+      213: -5560253757528719968
+    second: hexagonObjects_sheet_6
+  - first:
+      213: 2029984823103763270
+    second: hexagonObjects_sheet_7
+  - first:
+      213: 6907194160669572235
+    second: hexagonObjects_sheet_8
+  - first:
+      213: -8458838334878963965
+    second: hexagonObjects_sheet_9
+  - first:
+      213: 417442399724238985
+    second: hexagonObjects_sheet_10
+  - first:
+      213: 6740439276848301496
+    second: hexagonObjects_sheet_11
+  - first:
+      213: -67286056631252050
+    second: hexagonObjects_sheet_12
+  - first:
+      213: -702075588978763778
+    second: hexagonObjects_sheet_13
+  - first:
+      213: -7847134966779862028
+    second: hexagonObjects_sheet_14
+  - first:
+      213: 8915017432914050397
+    second: hexagonObjects_sheet_15
+  - first:
+      213: -2066524268128430616
+    second: hexagonObjects_sheet_16
+  - first:
+      213: -8805173449936315944
+    second: hexagonObjects_sheet_17
+  - first:
+      213: 7143139989816547153
+    second: hexagonObjects_sheet_18
+  - first:
+      213: -9075044287925579388
+    second: hexagonObjects_sheet_19
+  - first:
+      213: 4236148570801471632
+    second: hexagonObjects_sheet_20
+  - first:
+      213: -4985900630948567702
+    second: hexagonObjects_sheet_21
+  - first:
+      213: 735544214924498135
+    second: hexagonObjects_sheet_22
+  - first:
+      213: 3170016074715602991
+    second: hexagonObjects_sheet_23
+  - first:
+      213: -6196211558422468497
+    second: hexagonObjects_sheet_24
+  - first:
+      213: 5207718364016464199
+    second: hexagonObjects_sheet_25
+  - first:
+      213: 3628267334563797692
+    second: hexagonObjects_sheet_26
+  - first:
+      213: 6317329438612352886
+    second: hexagonObjects_sheet_27
+  - first:
+      213: 5620747559471736145
+    second: hexagonObjects_sheet_28
+  - first:
+      213: -9050469833464866696
+    second: hexagonObjects_sheet_29
+  - first:
+      213: -2718165349011451905
+    second: hexagonObjects_sheet_30
+  - first:
+      213: 8831544417801196450
+    second: hexagonObjects_sheet_31
+  - first:
+      213: 7797287329294640281
+    second: hexagonObjects_sheet_32
+  - first:
+      213: -4295307264717421334
+    second: hexagonObjects_sheet_33
+  - first:
+      213: -1222799030304761099
+    second: hexagonObjects_sheet_34
+  - first:
+      213: 8547375436622230140
+    second: hexagonObjects_sheet_35
+  - first:
+      213: 787261676299774994
+    second: hexagonObjects_sheet_36
+  - first:
+      213: 5340471560678810578
+    second: hexagonObjects_sheet_37
+  - first:
+      213: -1573291527175789649
+    second: hexagonObjects_sheet_38
+  - first:
+      213: -398971336231474917
+    second: hexagonObjects_sheet_39
+  - first:
+      213: 6622525744323186899
+    second: hexagonObjects_sheet_40
+  - first:
+      213: 5794931206341861410
+    second: hexagonObjects_sheet_41
+  - first:
+      213: 9099935140715571983
+    second: hexagonObjects_sheet_42
+  - first:
+      213: 2083375715966375633
+    second: hexagonObjects_sheet_43
+  - first:
+      213: -692551479127060742
+    second: hexagonObjects_sheet_44
+  - first:
+      213: 7975806093599424748
+    second: hexagonObjects_sheet_45
+  - first:
+      213: -1369676083677795161
+    second: hexagonObjects_sheet_46
+  - first:
+      213: 4213870872389620689
+    second: hexagonObjects_sheet_47
+  - first:
+      213: 4227684955555913364
+    second: hexagonObjects_sheet_48
+  - first:
+      213: -2736602633137030100
+    second: hexagonObjects_sheet_49
+  - first:
+      213: -8060366143004982427
+    second: hexagonObjects_sheet_50
+  - first:
+      213: 2761302232472754011
+    second: hexagonObjects_sheet_51
+  - first:
+      213: 8419668734784562407
+    second: hexagonObjects_sheet_52
+  - first:
+      213: 1704415445212123842
+    second: hexagonObjects_sheet_53
+  - first:
+      213: 4121781657420850958
+    second: hexagonObjects_sheet_54
+  - first:
+      213: 8505279853407930331
+    second: hexagonObjects_sheet_55
+  - first:
+      213: 3492751775951075289
+    second: hexagonObjects_sheet_56
+  - first:
+      213: 8259439996514880585
+    second: hexagonObjects_sheet_57
+  - first:
+      213: -3562407722955257174
+    second: hexagonObjects_sheet_58
+  - first:
+      213: 3083918370603295905
+    second: hexagonObjects_sheet_59
+  - first:
+      213: -2524665617139079882
+    second: hexagonObjects_sheet_60
+  - first:
+      213: -2483180886130609954
+    second: hexagonObjects_sheet_61
+  - first:
+      213: -2137293004351263083
+    second: hexagonObjects_sheet_62
+  - first:
+      213: -33573306724447509
+    second: hexagonObjects_sheet_63
+  - first:
+      213: -8667257284054059403
+    second: hexagonObjects_sheet_64
+  - first:
+      213: -2507289431413079534
+    second: hexagonObjects_sheet_65
+  - first:
+      213: -4601804519103482980
+    second: hexagonObjects_sheet_66
+  - first:
+      213: -609427927438422255
+    second: hexagonObjects_sheet_67
+  - first:
+      213: 1297241375559598208
+    second: hexagonObjects_sheet_68
+  - first:
+      213: -1220762539470648461
+    second: hexagonObjects_sheet_69
+  - first:
+      213: 1772315225505230731
+    second: hexagonObjects_sheet_70
+  - first:
+      213: 5431917453276729267
+    second: hexagonObjects_sheet_71
+  - first:
+      213: -2783169152079883780
+    second: hexagonObjects_sheet_72
+  - first:
+      213: -1717173764733024171
+    second: hexagonObjects_sheet_73
+  - first:
+      213: 4236081122418699809
+    second: hexagonObjects_sheet_74
+  - first:
+      213: -4102062442820817455
+    second: hexagonObjects_sheet_75
+  - first:
+      213: -5150363087321911865
+    second: hexagonObjects_sheet_76
+  - first:
+      213: -1284278949927035072
+    second: hexagonObjects_sheet_77
+  - first:
+      213: -7597171670634089541
+    second: hexagonObjects_sheet_78
+  - first:
+      213: -7403388273741958068
+    second: hexagonObjects_sheet_79
+  - first:
+      213: 1672636437773072735
+    second: hexagonObjects_sheet_80
+  - first:
+      213: -8899519936127001054
+    second: hexagonObjects_sheet_81
+  - first:
+      213: -8074185075431718604
+    second: hexagonObjects_sheet_82
+  - first:
+      213: -6521078929918385710
+    second: hexagonObjects_sheet_83
+  - first:
+      213: -4250518915269074586
+    second: hexagonObjects_sheet_84
+  - first:
+      213: 5355329746377778940
+    second: hexagonObjects_sheet_85
+  - first:
+      213: -1014836322976808349
+    second: hexagonObjects_sheet_86
+  - first:
+      213: 2620517641698417915
+    second: hexagonObjects_sheet_87
+  - first:
+      213: 4621020616123777887
+    second: hexagonObjects_sheet_88
+  - first:
+      213: -8758194888593796850
+    second: hexagonObjects_sheet_89
+  - first:
+      213: 3414371558902778147
+    second: hexagonObjects_sheet_90
+  - first:
+      213: 6945136244754086130
+    second: hexagonObjects_sheet_91
+  - first:
+      213: -8019908393202042984
+    second: hexagonObjects_sheet_92
+  - first:
+      213: 2976281217060745538
+    second: hexagonObjects_sheet_93
+  - first:
+      213: -2463219934923111671
+    second: hexagonObjects_sheet_94
+  - first:
+      213: -997922290982504353
+    second: hexagonObjects_sheet_95
+  - first:
+      213: 8173291601475678240
+    second: hexagonObjects_sheet_96
+  - first:
+      213: -7624128393754934497
+    second: hexagonObjects_sheet_97
+  - first:
+      213: 3390071921752014990
+    second: hexagonObjects_sheet_98
+  - first:
+      213: 1725002838016221987
+    second: hexagonObjects_sheet_99
+  - first:
+      213: -6091377304891143166
+    second: hexagonObjects_sheet_100
+  - first:
+      213: -4079652263091412199
+    second: hexagonObjects_sheet_101
+  - first:
+      213: 4842522162626480074
+    second: hexagonObjects_sheet_102
+  - first:
+      213: 7574975314484582948
+    second: hexagonObjects_sheet_103
+  - first:
+      213: -6443388393826927787
+    second: hexagonObjects_sheet_104
+  - first:
+      213: -2861993264239198352
+    second: hexagonObjects_sheet_105
+  - first:
+      213: 8208725244516710682
+    second: hexagonObjects_sheet_106
+  - first:
+      213: -4481619497994296577
+    second: hexagonObjects_sheet_107
+  - first:
+      213: -4608826077279405292
+    second: hexagonObjects_sheet_108
+  - first:
+      213: -1932369199347438562
+    second: hexagonObjects_sheet_109
+  - first:
+      213: -6812532080042146931
+    second: hexagonObjects_sheet_110
+  - first:
+      213: 3318256847009226473
+    second: hexagonObjects_sheet_111
+  - first:
+      213: -7396014532328880114
+    second: hexagonObjects_sheet_112
+  - first:
+      213: 8247295238010396533
+    second: hexagonObjects_sheet_113
+  - first:
+      213: -7082756920364119364
+    second: hexagonObjects_sheet_114
+  - first:
+      213: 3550095364472309486
+    second: hexagonObjects_sheet_115
+  - first:
+      213: -2044976734081396475
+    second: hexagonObjects_sheet_116
+  - first:
+      213: 1120265702547840155
+    second: hexagonObjects_sheet_117
+  - first:
+      213: -4000828090693557456
+    second: hexagonObjects_sheet_118
+  - first:
+      213: -8328177642930407685
+    second: hexagonObjects_sheet_119
+  - first:
+      213: 7733809338882278379
+    second: hexagonObjects_sheet_120
+  - first:
+      213: 934410747739419788
+    second: hexagonObjects_sheet_121
+  - first:
+      213: -3922697154007243641
+    second: hexagonObjects_sheet_122
+  - first:
+      213: 2524890760021791877
+    second: hexagonObjects_sheet_123
+  - first:
+      213: 9168101031180118377
+    second: hexagonObjects_sheet_124
+  - first:
+      213: 4992456627882980386
+    second: hexagonObjects_sheet_125
+  - first:
+      213: -3775880376455118649
+    second: hexagonObjects_sheet_126
+  - first:
+      213: 8196975080162659041
+    second: hexagonObjects_sheet_127
+  - first:
+      213: 7071781012135198821
+    second: hexagonObjects_sheet_128
+  - first:
+      213: -2511553379305940416
+    second: hexagonObjects_sheet_129
+  - first:
+      213: 4798381201519979183
+    second: hexagonObjects_sheet_130
+  - first:
+      213: -8575165387459963455
+    second: hexagonObjects_sheet_131
+  - first:
+      213: 7480212813525098289
+    second: hexagonObjects_sheet_132
+  - first:
+      213: 7000500624658555292
+    second: hexagonObjects_sheet_133
+  - first:
+      213: -1441900550366769933
+    second: hexagonObjects_sheet_134
+  - first:
+      213: 7819749737328743927
+    second: hexagonObjects_sheet_135
+  - first:
+      213: 1039102806494067820
+    second: hexagonObjects_sheet_136
+  - first:
+      213: -8244186001484772470
+    second: hexagonObjects_sheet_137
+  - first:
+      213: -856619188843705547
+    second: hexagonObjects_sheet_138
+  - first:
+      213: -7754545741888436214
+    second: hexagonObjects_sheet_139
+  - first:
+      213: 1453914359952777748
+    second: hexagonObjects_sheet_140
+  - first:
+      213: -952052008491356115
+    second: hexagonObjects_sheet_141
+  - first:
+      213: 6126485499539405169
+    second: hexagonObjects_sheet_142
+  - first:
+      213: -1159526739512920280
+    second: hexagonObjects_sheet_143
+  - first:
+      213: 4271000709261711934
+    second: hexagonObjects_sheet_144
+  - first:
+      213: 4779721145023661909
+    second: hexagonObjects_sheet_145
+  - first:
+      213: -113895671446065067
+    second: hexagonObjects_sheet_146
+  - first:
+      213: 9099273899057071824
+    second: hexagonObjects_sheet_147
+  - first:
+      213: -90747099955874615
+    second: hexagonObjects_sheet_148
+  - first:
+      213: -1143848427845474857
+    second: hexagonObjects_sheet_149
+  - first:
+      213: -1021368153881890430
+    second: hexagonObjects_sheet_150
+  - first:
+      213: -5929476857755966476
+    second: hexagonObjects_sheet_151
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 118
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a822201bbc9e9d4b93ba48a4950b09b
+      internalID: -871636010789764854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 428
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db06a7c668bae24c8de371e5879a000
+      internalID: 2064013768271249972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 418
+        width: 86
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cb358e95771eb4285eeab7c22b5350
+      internalID: -8216928234247516682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 431
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e6e6daf9e85444ad477ace09830d9
+      internalID: 6469739710458098864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 439
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bd14b9cdcad0c44969726cf5cdbf55
+      internalID: 155210493099736258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 438
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8cfeb64e2b1de47b193334fef33704
+      internalID: -6129025110461057376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 414
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbec5240083f4d40beada3188241d4f
+      internalID: -5560253757528719968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 450
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b730395ae6d654eb1c5f95ac405b10
+      internalID: 2029984823103763270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 452
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49b398d15b1d07489c08a4466ef696e
+      internalID: 6907194160669572235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 430
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa548c094a5fd74fbc11c135b50c696
+      internalID: -8458838334878963965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 464
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a952bfdc654533c4698d6b66aea57f74
+      internalID: 417442399724238985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 456
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a13cb222df7bb40928750b40805369
+      internalID: 6740439276848301496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 461
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbdc2cf15d86ab4eb8b7245baf891af
+      internalID: -67286056631252050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 470
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a71d38f089acf94d8782f1a69b30edc
+      internalID: -702075588978763778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 482
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d931078c51c0949967a507dcd06b78
+      internalID: -7847134966779862028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 480
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d80b04033f2c9942be24a6942418312
+      internalID: 8915017432914050397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 376
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1349ff8bd3e03d94a83e6ee626733556
+      internalID: -2066524268128430616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 384
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab03c78fbc423b4fa56661d5fea661a
+      internalID: -8805173449936315944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 401
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7837829e01cb30479d167774e33ec13
+      internalID: 7143139989816547153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 424
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b909bc9b0493a334c90708480d5ee086
+      internalID: -9075044287925579388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 436
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73814ced0bef1e408d489677a229938
+      internalID: 4236148570801471632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 440
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e9305155582d34c9f19f6ca9d6a0c1
+      internalID: -4985900630948567702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 450
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba6ecebb4d8f864b95deade02e4b7a7
+      internalID: 735544214924498135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 352
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad66d6227bbed34d96e59171d3fdc98
+      internalID: 3170016074715602991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 367
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0552ebc8f7aca4ea8080a3b80fc436
+      internalID: -6196211558422468497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 370
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96754ad894b13d428ec90012f5d87f0
+      internalID: 5207718364016464199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 420
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960dac9a1b9cbc4ab2a6766650a397c
+      internalID: 3628267334563797692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 416
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63594a03b3bd0b8458b73967e5991251
+      internalID: 6317329438612352886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 386
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0e9ac96060a31499c478bf16332e55
+      internalID: 5620747559471736145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 393
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7347c1e1538a09a4cb9dc8673968c13c
+      internalID: -9050469833464866696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 366
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513658a16d3a68545bd3b736fd39c792
+      internalID: -2718165349011451905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 404
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8d6c22a5b171e41a9fd3dd82cf5622
+      internalID: 8831544417801196450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 386
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25343310d25074983ad3f823450161
+      internalID: 7797287329294640281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 420
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f74667e755847d46813b26455ed664b
+      internalID: -4295307264717421334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 118
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66447f86555898c4fbb0ef6bcd5905e3
+      internalID: -1222799030304761099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 356
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ece8902bfb8b46b771661271629c6
+      internalID: 8547375436622230140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 346
+        width: 84
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b50ac94feff5844a81cd0cba0f5e4c
+      internalID: 787261676299774994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 324
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8593754499f81f94fa13bfaf25ff5c09
+      internalID: 5340471560678810578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 350
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aa0c599e86d3040b2d399f0c1fe0b2
+      internalID: -1573291527175789649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 345
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd27257bb4daa542ad4fb83998ac00d
+      internalID: -398971336231474917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 372
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04a4e3da073f0a4c8629ec0110724b0
+      internalID: 6622525744323186899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 385
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8accb7e6f3ea0124da6d05e8376e58a8
+      internalID: 5794931206341861410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 347
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6f07736b26e614e8110dd96df7cb21
+      internalID: 9099935140715571983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 347
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326ca50a0e7425347ba18388dd885d36
+      internalID: 2083375715966375633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 277
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b065645b9eb66540af6a7d66e32b29f
+      internalID: -692551479127060742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 350
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02cc63b116b5984c9484f50467b3df0
+      internalID: 7975806093599424748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 318
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f70477becf1a44aa9005dc4438c90e
+      internalID: -1369676083677795161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 318
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe69a619056ade48877d0c79fcbd342
+      internalID: 4213870872389620689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 336
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e8bf9b16dfe64d8fa5e93e7a244d3
+      internalID: 4227684955555913364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 330
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e61714e370d0614a9b564cbf8a552fc
+      internalID: -2736602633137030100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 347
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae247cfe081ca74796dfa5981717c17
+      internalID: -8060366143004982427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 345
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f323ae19442064abf5238c687b63ee
+      internalID: 2761302232472754011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 315
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed9148970c77234c81b145829818c33
+      internalID: 8419668734784562407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 318
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed84d265a77b640409ab48042a3a3ce4
+      internalID: 1704415445212123842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 280
+        width: 88
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160395a4f2723a478ff2fb556eb1ea9
+      internalID: 4121781657420850958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 273
+        width: 82
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216deb2f633029b4bb1f5aa5f47e3fec
+      internalID: 8505279853407930331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 253
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66354f746d152341937dc8e0a11104c
+      internalID: 3492751775951075289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 325
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d8ea457d5842847884a8c8dfba3271
+      internalID: 8259439996514880585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 293
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e54ae97c174914c8c8dba8846a9aa6
+      internalID: -3562407722955257174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 289
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d92db4cd97eb694abf54dc5b91a9349
+      internalID: 3083918370603295905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 266
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea88f2cc9e708ce468ab3e0cbc176566
+      internalID: -2524665617139079882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 303
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9332878f7afc684b95e9f59421b4e41
+      internalID: -2483180886130609954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 285
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2d6b3e342c4054db1e61c6897f3a0b
+      internalID: -2137293004351263083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 106
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d352cd4e2e8ad3c42873232b3c064c9a
+      internalID: -33573306724447509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 220
+        width: 100
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2087b530a0a0f924da9c8f51078c85e3
+      internalID: -8667257284054059403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 234
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac72d91b15d54ad42a52e66deb901f2d
+      internalID: -2507289431413079534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 248
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a904878a20ea6c449eab5e6f0547e88
+      internalID: -4601804519103482980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 191
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfad0de01f43dbf4f831c1a6ed9e7950
+      internalID: -609427927438422255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 246
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5d9cd060a5a5148b1ddd31934fb003
+      internalID: 1297241375559598208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 260
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca964c3824719b84a94487ca3b7045f1
+      internalID: -1220762539470648461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 261
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509d803643183aa4bbb17c8cde871046
+      internalID: 1772315225505230731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 268
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f47859cff2a484f9f039aebfb73ea0
+      internalID: 5431917453276729267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 254
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893d862da62a6f2428a0c9b0521eaa51
+      internalID: -2783169152079883780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 260
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c24d5e3631d9e439c5bd4e0dd7c5d8
+      internalID: -1717173764733024171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 232
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854fe2c0b8206b944a9408126614f1d6
+      internalID: 4236081122418699809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 271
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc797f60bad4c4649b21742a2d3147bf
+      internalID: -4102062442820817455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 269
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d2675d1b145e14b9cd15dab0091d68
+      internalID: -5150363087321911865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 212
+        width: 22
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3dcec37724c347b35540f573337dd
+      internalID: -1284278949927035072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 222
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c39b7f3293b069448981dce9ef922da
+      internalID: -7597171670634089541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 195
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f57876f253d3eb4a9102d333d7b4695
+      internalID: -7403388273741958068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 201
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6018e03abc85094191e46e929431852
+      internalID: 1672636437773072735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 230
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b079481113b966a4d92ebca75e7e3f07
+      internalID: -8899519936127001054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 130
+        width: 62
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74611c1012a18554cb9bf2fda553478f
+      internalID: -8074185075431718604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 132
+        width: 58
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ebee3dfcd33c043b013298efa4d1b3
+      internalID: -6521078929918385710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 194
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583cb80944e45574f808f085c2dd7f33
+      internalID: -4250518915269074586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 196
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec538599207dd54448649384a1ee55ef
+      internalID: 5355329746377778940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 202
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ed951aa00c09941bbd0dcca3aa6a30
+      internalID: -1014836322976808349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 195
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4396e78ec381d0499d1d38b31ec85ba
+      internalID: 2620517641698417915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 203
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863a53e97b15ac24f9ddad130ee551b1
+      internalID: 4621020616123777887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 233
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5449ef0cce13de49b0a511477f54177
+      internalID: -8758194888593796850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 106
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d659a74acb9e64438c2564beb8fb8d1
+      internalID: 3414371558902778147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 140
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cda5d4f0dba8c4d8ec926d86c36792
+      internalID: 6945136244754086130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 150
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e6a2e136a1f8940b44ecbc41ae44c9
+      internalID: -8019908393202042984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 196
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d89496b06461b4cbf0296509450e58
+      internalID: 2976281217060745538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 154
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cedd6f9d460b5459165df134792ae4
+      internalID: -2463219934923111671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 164
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f24a28b2a082aa40b8d03e1dc03daff
+      internalID: -997922290982504353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 211
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e009fd88aab050a4f8164bf10eaee0fd
+      internalID: 8173291601475678240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 86
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41842b6cb97bd4a4e86145669d40082a
+      internalID: -7624128393754934497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 117
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1b7e01bdea8f04084954ab4b30840b
+      internalID: 3390071921752014990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 129
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c534d8ad6a5d8743a1efab84d784ce5
+      internalID: 1725002838016221987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 132
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06d3dc6df4012d46b2c9df5be045aca
+      internalID: -6091377304891143166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 139
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7463cc58b30f84480d1ec262717d41
+      internalID: -4079652263091412199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 144
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318ef05c82affcc4b993e433fc5ac969
+      internalID: 4842522162626480074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 159
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343dc2f3afa950649ac8262e794ecd69
+      internalID: 7574975314484582948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 171
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49af8ff0cd5994a4fa139ade105884dc
+      internalID: -6443388393826927787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 180
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb0fba8017a4d94a92b2dcf6face768
+      internalID: -2861993264239198352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d6df73022ece04cb7baf1abe32f142
+      internalID: 8208725244516710682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 19
+        width: 100
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08910185140ce144958fbb80eead3b4
+      internalID: -4481619497994296577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 54
+        width: 94
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a379ddec06717924bb19a59e3f00e195
+      internalID: -4608826077279405292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 81
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf1c4383f944f041aa31c182a769416
+      internalID: -1932369199347438562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 86
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1e79dfb57d0849befc2d5853dcb6e
+      internalID: -6812532080042146931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 80
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337ba457560d3794585e5d319b9f4b9b
+      internalID: 3318256847009226473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 108
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cc4ae2221365246902133cadd364e1
+      internalID: -7396014532328880114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 121
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023f3ed73bc065747b0b7c7108763b28
+      internalID: 8247295238010396533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 132
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71885fedbead784e8868d3c186af288
+      internalID: -7082756920364119364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 123
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16163e17a9a4f24d82e101b60ed0f45
+      internalID: 3550095364472309486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 30
+        width: 80
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696be30c4c3a5744ea7a48f4c84c1106
+      internalID: -2044976734081396475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 7
+        width: 74
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522e55f1f1bec8f4baf27c7a410d68a8
+      internalID: 1120265702547840155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 49
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1501d6e4eada3478241ccfde50ce2e
+      internalID: -4000828090693557456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 70
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91d541a18c30749b3b39b14c153090
+      internalID: -8328177642930407685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 20
+        width: 58
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e09fbeeba6a1349973e9011b4018fe
+      internalID: 7733809338882278379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 31
+        width: 56
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0767a1becd134cc488b15348f60b0bf7
+      internalID: 934410747739419788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 60
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77d299669d366745ab08b080888ed43
+      internalID: -3922697154007243641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 77
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c0210331521b346b9693280df50f63
+      internalID: 2524890760021791877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 90
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee797d28aabca34a974402e76fe7afd
+      internalID: 9168101031180118377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 81
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1fea6c5e94a884aba5f2b076bee503
+      internalID: 4992456627882980386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 10
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9e60edc87e2a34184bc4038e71c0bd
+      internalID: -3775880376455118649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 29
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c6446521d0ad847bc6b146a5c8b9cc
+      internalID: 8196975080162659041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 30
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953ffda0aefed5949bbb84dd67e0b4fb
+      internalID: 7071781012135198821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 32
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85f1b2b56d7534cba25115d07027c5
+      internalID: -2511553379305940416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 34
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dfe06a3ac6264438fb6529b744d5b2
+      internalID: 4798381201519979183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 58
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cf02ac4374b894abe0081bb5e998cc
+      internalID: -8575165387459963455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3149e2cb1c075dd479810a2c71182c94
+      internalID: 7480212813525098289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 35
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250fec891c702c040809053118c40a54
+      internalID: 7000500624658555292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 6
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da0a7c7938643943adcea707bb71918
+      internalID: -1441900550366769933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 29
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390322f7a003fb9458839e99e3a5c70e
+      internalID: 7819749737328743927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 12
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b6420966f6306469589eec672ae81a
+      internalID: 1039102806494067820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 34
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c2fd1ef12a4fb4b9e2b4a6d0b76815
+      internalID: -8244186001484772470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 28
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6716cf383c99b1c42aa94471451514d2
+      internalID: -856619188843705547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adb349460b2a07478ba6b277bb04a25
+      internalID: -7754545741888436214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ce4a572b0c0944a885b94b1ce0fb3d
+      internalID: 1453914359952777748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c7a35c74c0d5478f405bab07c22f0
+      internalID: -952052008491356115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd155475c6ca58498449e126bbc0a65
+      internalID: 6126485499539405169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c3e3e0184e38e4c8233bfe6d795ff9
+      internalID: -1159526739512920280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e606221b4cd434c85edbff034532a9
+      internalID: 4271000709261711934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81263f04e8c89354c85b8282c20c1845
+      internalID: 4779721145023661909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 10
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3940d5670ec2d2543b285bf93ed7788d
+      internalID: -113895671446065067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 8
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6144a579c58dbb44284c1c5fe9058815
+      internalID: 9099273899057071824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 3
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b632314cf272144184555f37b4919ab
+      internalID: -90747099955874615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 2
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4029351216b5fb44809a8c9666205bf
+      internalID: -1143848427845474857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a288deb384dc1dc4ba29a8a120a4bee5
+      internalID: -1021368153881890430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonObjects_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 4
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bf5e789199c334c8350e0a34cfe792
+      internalID: -5929476857755966476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

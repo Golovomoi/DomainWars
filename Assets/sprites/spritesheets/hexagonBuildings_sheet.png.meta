@@ -1,0 +1,1717 @@
+fileFormatVersion: 2
+guid: ea0edea0c5932354c971eedc4ccd17ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7306058884010409095
+    second: hexagonBuildings_sheet_0
+  - first:
+      213: 282158371560788967
+    second: hexagonBuildings_sheet_1
+  - first:
+      213: -6252243927117729944
+    second: hexagonBuildings_sheet_2
+  - first:
+      213: 2586565198920093192
+    second: hexagonBuildings_sheet_3
+  - first:
+      213: 1311236649004329929
+    second: hexagonBuildings_sheet_4
+  - first:
+      213: -3692672338589877621
+    second: hexagonBuildings_sheet_5
+  - first:
+      213: 7788031200393283842
+    second: hexagonBuildings_sheet_6
+  - first:
+      213: -7280743917695458249
+    second: hexagonBuildings_sheet_7
+  - first:
+      213: -2478219828953247822
+    second: hexagonBuildings_sheet_8
+  - first:
+      213: -702098892758482872
+    second: hexagonBuildings_sheet_9
+  - first:
+      213: 2055401271352612120
+    second: hexagonBuildings_sheet_10
+  - first:
+      213: 6972307597784656492
+    second: hexagonBuildings_sheet_11
+  - first:
+      213: -2129212591493478211
+    second: hexagonBuildings_sheet_12
+  - first:
+      213: 6974150003180875174
+    second: hexagonBuildings_sheet_13
+  - first:
+      213: -1087542452650365752
+    second: hexagonBuildings_sheet_14
+  - first:
+      213: 4001121899218924988
+    second: hexagonBuildings_sheet_15
+  - first:
+      213: -3472325185686174850
+    second: hexagonBuildings_sheet_16
+  - first:
+      213: -1792351311021065604
+    second: hexagonBuildings_sheet_17
+  - first:
+      213: -7090461507286989723
+    second: hexagonBuildings_sheet_18
+  - first:
+      213: -8789071984190704398
+    second: hexagonBuildings_sheet_19
+  - first:
+      213: 7420787134498224300
+    second: hexagonBuildings_sheet_20
+  - first:
+      213: -7688031895214582240
+    second: hexagonBuildings_sheet_21
+  - first:
+      213: 3265781720241204713
+    second: hexagonBuildings_sheet_22
+  - first:
+      213: 6597303921050252641
+    second: hexagonBuildings_sheet_23
+  - first:
+      213: 2314177386821707393
+    second: hexagonBuildings_sheet_24
+  - first:
+      213: 6276366315200372106
+    second: hexagonBuildings_sheet_25
+  - first:
+      213: -1831864033865960502
+    second: hexagonBuildings_sheet_26
+  - first:
+      213: 7497328555976062231
+    second: hexagonBuildings_sheet_27
+  - first:
+      213: -6794770553153674157
+    second: hexagonBuildings_sheet_28
+  - first:
+      213: 61772079306857540
+    second: hexagonBuildings_sheet_29
+  - first:
+      213: -6416106798649485148
+    second: hexagonBuildings_sheet_30
+  - first:
+      213: 4417813274746769744
+    second: hexagonBuildings_sheet_31
+  - first:
+      213: 1913409017204554028
+    second: hexagonBuildings_sheet_32
+  - first:
+      213: 6578841851090546308
+    second: hexagonBuildings_sheet_33
+  - first:
+      213: 4924980084508902920
+    second: hexagonBuildings_sheet_34
+  - first:
+      213: 5956240020424462760
+    second: hexagonBuildings_sheet_35
+  - first:
+      213: -904003340246153346
+    second: hexagonBuildings_sheet_36
+  - first:
+      213: 3473686571238046254
+    second: hexagonBuildings_sheet_37
+  - first:
+      213: 7919593848411493408
+    second: hexagonBuildings_sheet_38
+  - first:
+      213: 4565128565128547715
+    second: hexagonBuildings_sheet_39
+  - first:
+      213: -7928500209238356258
+    second: hexagonBuildings_sheet_40
+  - first:
+      213: -5502519613296534238
+    second: hexagonBuildings_sheet_41
+  - first:
+      213: -7302881489515995099
+    second: hexagonBuildings_sheet_42
+  - first:
+      213: 6973907394132204439
+    second: hexagonBuildings_sheet_43
+  - first:
+      213: -2934832145441474411
+    second: hexagonBuildings_sheet_44
+  - first:
+      213: 9040112913798035998
+    second: hexagonBuildings_sheet_45
+  - first:
+      213: 3378482216160545505
+    second: hexagonBuildings_sheet_46
+  - first:
+      213: 311419213660452643
+    second: hexagonBuildings_sheet_47
+  - first:
+      213: 3632993931124911444
+    second: hexagonBuildings_sheet_48
+  - first:
+      213: -293961613290309319
+    second: hexagonBuildings_sheet_49
+  - first:
+      213: -318706460628023284
+    second: hexagonBuildings_sheet_50
+  - first:
+      213: -7801543587128461615
+    second: hexagonBuildings_sheet_51
+  - first:
+      213: 8314953169907528173
+    second: hexagonBuildings_sheet_52
+  - first:
+      213: 4681821998409289665
+    second: hexagonBuildings_sheet_53
+  - first:
+      213: 5488584129534275910
+    second: hexagonBuildings_sheet_54
+  - first:
+      213: -3653378676557776797
+    second: hexagonBuildings_sheet_55
+  - first:
+      213: -4874049559406745409
+    second: hexagonBuildings_sheet_56
+  - first:
+      213: -6624456566129380888
+    second: hexagonBuildings_sheet_57
+  - first:
+      213: -5803068179718186085
+    second: hexagonBuildings_sheet_58
+  - first:
+      213: -363611963443968242
+    second: hexagonBuildings_sheet_59
+  - first:
+      213: 3531961460065977006
+    second: hexagonBuildings_sheet_60
+  - first:
+      213: 8768451920636497929
+    second: hexagonBuildings_sheet_61
+  - first:
+      213: 5916920769156425002
+    second: hexagonBuildings_sheet_62
+  - first:
+      213: 7851530942945731759
+    second: hexagonBuildings_sheet_63
+  - first:
+      213: -4650742973120228778
+    second: hexagonBuildings_sheet_64
+  - first:
+      213: -5614900278712470063
+    second: hexagonBuildings_sheet_65
+  - first:
+      213: 297861232571369063
+    second: hexagonBuildings_sheet_66
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e018f0533f0a42960c553262b6767
+      internalID: -7306058884010409095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7880774c126fe546a74b8600f9e1660
+      internalID: 282158371560788967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71bdbde5ea723745a22cb380eb3d6f9
+      internalID: -6252243927117729944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6308913b339f0445a86abf04e9305aa
+      internalID: 2586565198920093192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b263926931c21184bbceb525f3f80130
+      internalID: 1311236649004329929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e90e8ac198fa674783dd4f14d102fbb
+      internalID: -3692672338589877621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d334212172faa341bbb1169841aa5e6
+      internalID: 7788031200393283842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172f6f2e8a71a184081da9eb3a84d374
+      internalID: -7280743917695458249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6308ec2f5a3cc479e467b48b758d53
+      internalID: -2478219828953247822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b44bc725a2bc4aa2c78b6ae2851b4
+      internalID: -702098892758482872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa58ee74614408e488b9d41385636520
+      internalID: 2055401271352612120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb315a547778e34daf8b628b350d2cf
+      internalID: 6972307597784656492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a73b9139a0e4214f9296b9afa4096b2
+      internalID: -2129212591493478211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7295931212ab84aaf064b2bb4867f0
+      internalID: 6974150003180875174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b913d4fdbee5d224bb2ced8f545c1343
+      internalID: -1087542452650365752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc9de12404c494e4e9fb2b21f0c21eca
+      internalID: 4001121899218924988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87c751fce1025f4cb93b2cba8fea7d7
+      internalID: -3472325185686174850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbc52b84e05fc84e8300a1d4dda6d9a
+      internalID: -1792351311021065604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c90dcce082f6d4db976cfc795ca46f
+      internalID: -7090461507286989723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65207913bfdd0479029b76f6083ae4
+      internalID: -8789071984190704398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea63eedf26670a343b0aa032b67c1193
+      internalID: 7420787134498224300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc0de55057403341abb8149669c20e8
+      internalID: -7688031895214582240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6caf76021c60d7940966e87667bd8b70
+      internalID: 3265781720241204713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00d6f806a6475745a72390e3ba9938b
+      internalID: 6597303921050252641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e6ac7f9620d28428c990c95ea6427d
+      internalID: 2314177386821707393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1b8195eb89fa545a044b754f6c841f
+      internalID: 6276366315200372106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c27085b0ea3d14291084f99160f08a
+      internalID: -1831864033865960502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d6b2fe9715ad34bac7f6644deb6f82
+      internalID: 7497328555976062231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d85d9ba58848f48a97c22d31dd1144
+      internalID: -6794770553153674157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf53ef9bfb23ba46bf3bb1c04974523
+      internalID: 61772079306857540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c66439aabe1522499d13168d0e4f6a8
+      internalID: -6416106798649485148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ffc315b7fe2fd4d97c222dc1589ebb
+      internalID: 4417813274746769744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ad07e04a1d255438ba315254d4bd17
+      internalID: 1913409017204554028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303f72a94a132ab4884675c379f18fce
+      internalID: 6578841851090546308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bb857949ed43f4895e68cd11335080
+      internalID: 4924980084508902920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b553b0a5c8426d4eb5d77b235fe857e
+      internalID: 5956240020424462760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f350af688b134b746b67fd1cf24049b9
+      internalID: -904003340246153346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c9aa37cbe32364ea1a6a42fb70a6ed
+      internalID: 3473686571238046254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4076ee527f0aa0b4f8128a794af665a6
+      internalID: 7919593848411493408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93430e5dcce846747a13cea8f01fa3fe
+      internalID: 4565128565128547715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9e1b74238ef7c478734f0d75161e90
+      internalID: -7928500209238356258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1f7dc716ebf914b8aade370e655744
+      internalID: -5502519613296534238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896f88885a37d324db231a673eaa2265
+      internalID: -7302881489515995099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904c7d83c94233941b2682031d6723ad
+      internalID: 6973907394132204439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae2d23f3e9f8ed4eaedf3372a1b3ec1
+      internalID: -2934832145441474411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce950b18a05de6c4693c1cfbb0e6d3a7
+      internalID: 9040112913798035998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b358b9c52d3b1e44883026edb0ad31c3
+      internalID: 3378482216160545505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957018b8734fdcb41b6d6ca7431afdf1
+      internalID: 311419213660452643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661ac0841dd3a6e468d6783280760540
+      internalID: 3632993931124911444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee4daaf44eb11e4c8d43c735ad4e06e
+      internalID: -293961613290309319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d048a80273ee2f4fb6501161ca546a6
+      internalID: -318706460628023284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942c97dfe11a2e141bf0716b5ea862e1
+      internalID: -7801543587128461615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b797c8d275ac947ae50f570e54d0ce
+      internalID: 8314953169907528173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de2db76e0b480e43b796564a59153ff
+      internalID: 4681821998409289665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1856b22c0aa1b4798d6e90b1c910f1
+      internalID: 5488584129534275910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703de41b3e09a7d498299734fcbfa30a
+      internalID: -3653378676557776797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3123366e250ec942b0442a9d8bad0c1
+      internalID: -4874049559406745409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d227ad095a4cc1d45a3f0c01a895f5fa
+      internalID: -6624456566129380888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678d398900b69a34c919d9a4eabaced4
+      internalID: -5803068179718186085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec08898c5d3bbf4e8aef81245bba10e
+      internalID: -363611963443968242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d83c91bff2b3c499a2995819692c29
+      internalID: 3531961460065977006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9e83e8912c20d49b4663073a8a1c3b
+      internalID: 8768451920636497929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f196d876868714a8863bedaff8f4fb
+      internalID: 5916920769156425002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17b9c2a3d651d45b0334a0160ea3cf
+      internalID: 7851530942945731759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonBuildings_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf5c4917a0ff1c40ab49a874546bc2b
+      internalID: -4650742973120228778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

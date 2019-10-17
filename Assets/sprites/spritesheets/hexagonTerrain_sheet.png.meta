@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: 113d3988b43e9c24085a75b1bc091ce5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6440283589634851003
+    second: hexagonTerrain_sheet_0
+  - first:
+      213: -4047362472072731897
+    second: hexagonTerrain_sheet_1
+  - first:
+      213: 4705992599523920580
+    second: hexagonTerrain_sheet_2
+  - first:
+      213: 3550080498659467713
+    second: hexagonTerrain_sheet_3
+  - first:
+      213: 275071581313070318
+    second: hexagonTerrain_sheet_4
+  - first:
+      213: -4530855532894719890
+    second: hexagonTerrain_sheet_5
+  - first:
+      213: 4726642726972081551
+    second: hexagonTerrain_sheet_6
+  - first:
+      213: -68052306540222546
+    second: hexagonTerrain_sheet_7
+  - first:
+      213: 226648127763635601
+    second: hexagonTerrain_sheet_8
+  - first:
+      213: 2722712229916568284
+    second: hexagonTerrain_sheet_9
+  - first:
+      213: 8158668242597625775
+    second: hexagonTerrain_sheet_10
+  - first:
+      213: -5854848222456762470
+    second: hexagonTerrain_sheet_11
+  - first:
+      213: 5205350190062569382
+    second: hexagonTerrain_sheet_12
+  - first:
+      213: -2605980300579134115
+    second: hexagonTerrain_sheet_13
+  - first:
+      213: 3709179100865547167
+    second: hexagonTerrain_sheet_14
+  - first:
+      213: -2753521383992575481
+    second: hexagonTerrain_sheet_15
+  - first:
+      213: 6893570976973651501
+    second: hexagonTerrain_sheet_16
+  - first:
+      213: 7041067867123163859
+    second: hexagonTerrain_sheet_17
+  - first:
+      213: -5407053523702443022
+    second: hexagonTerrain_sheet_18
+  - first:
+      213: -6387210490883093258
+    second: hexagonTerrain_sheet_19
+  - first:
+      213: 1784965182873210783
+    second: hexagonTerrain_sheet_20
+  - first:
+      213: -1801313385464549687
+    second: hexagonTerrain_sheet_21
+  - first:
+      213: 277301916752301432
+    second: hexagonTerrain_sheet_22
+  - first:
+      213: -8459687972301234032
+    second: hexagonTerrain_sheet_23
+  - first:
+      213: 4354979454393738151
+    second: hexagonTerrain_sheet_24
+  - first:
+      213: 8314276750966766204
+    second: hexagonTerrain_sheet_25
+  - first:
+      213: -2971629197504899481
+    second: hexagonTerrain_sheet_26
+  - first:
+      213: 4416688292883966977
+    second: hexagonTerrain_sheet_27
+  - first:
+      213: -3867413897589605349
+    second: hexagonTerrain_sheet_28
+  - first:
+      213: -6145589264226499348
+    second: hexagonTerrain_sheet_29
+  - first:
+      213: 2596450338289249980
+    second: hexagonTerrain_sheet_30
+  - first:
+      213: 5272456680821649529
+    second: hexagonTerrain_sheet_31
+  - first:
+      213: -3813875801351887139
+    second: hexagonTerrain_sheet_32
+  - first:
+      213: 3778552499489452605
+    second: hexagonTerrain_sheet_33
+  - first:
+      213: 2904475070358225961
+    second: hexagonTerrain_sheet_34
+  - first:
+      213: -5500190470130750858
+    second: hexagonTerrain_sheet_35
+  - first:
+      213: 186447498728675888
+    second: hexagonTerrain_sheet_36
+  - first:
+      213: 1115867620992225976
+    second: hexagonTerrain_sheet_37
+  - first:
+      213: 4055057578026912965
+    second: hexagonTerrain_sheet_38
+  - first:
+      213: 8186572873226722798
+    second: hexagonTerrain_sheet_39
+  - first:
+      213: 8055219668766992752
+    second: hexagonTerrain_sheet_40
+  - first:
+      213: -2566091449693124379
+    second: hexagonTerrain_sheet_41
+  - first:
+      213: 1265813179766135333
+    second: hexagonTerrain_sheet_42
+  - first:
+      213: -9073194345698052348
+    second: hexagonTerrain_sheet_43
+  - first:
+      213: 8581996585174670212
+    second: hexagonTerrain_sheet_44
+  - first:
+      213: 2985403263732112574
+    second: hexagonTerrain_sheet_45
+  - first:
+      213: 4007756150480339926
+    second: hexagonTerrain_sheet_46
+  - first:
+      213: 6957002165645207911
+    second: hexagonTerrain_sheet_47
+  - first:
+      213: -6371848657470041761
+    second: hexagonTerrain_sheet_48
+  - first:
+      213: -4906552377774530470
+    second: hexagonTerrain_sheet_49
+  - first:
+      213: -6126242997130538244
+    second: hexagonTerrain_sheet_50
+  - first:
+      213: -7854686657667954996
+    second: hexagonTerrain_sheet_51
+  - first:
+      213: 4704875633969915374
+    second: hexagonTerrain_sheet_52
+  - first:
+      213: 5818754657044855696
+    second: hexagonTerrain_sheet_53
+  - first:
+      213: -2214304350909585504
+    second: hexagonTerrain_sheet_54
+  - first:
+      213: -6448524209172288755
+    second: hexagonTerrain_sheet_55
+  - first:
+      213: -7686344866899871112
+    second: hexagonTerrain_sheet_56
+  - first:
+      213: -2885965405048948906
+    second: hexagonTerrain_sheet_57
+  - first:
+      213: 8760145730438615418
+    second: hexagonTerrain_sheet_58
+  - first:
+      213: -1856005020023933150
+    second: hexagonTerrain_sheet_59
+  - first:
+      213: 5942877284331552011
+    second: hexagonTerrain_sheet_60
+  - first:
+      213: -925282826940951895
+    second: hexagonTerrain_sheet_61
+  - first:
+      213: 1874249204688933431
+    second: hexagonTerrain_sheet_62
+  - first:
+      213: 8248100087415028728
+    second: hexagonTerrain_sheet_63
+  - first:
+      213: 1376558401785784632
+    second: hexagonTerrain_sheet_64
+  - first:
+      213: 2626395530202532551
+    second: hexagonTerrain_sheet_65
+  - first:
+      213: 3019491175280167864
+    second: hexagonTerrain_sheet_66
+  - first:
+      213: -7289810467100993399
+    second: hexagonTerrain_sheet_67
+  - first:
+      213: 8802204596777657742
+    second: hexagonTerrain_sheet_68
+  - first:
+      213: -4098310871450113223
+    second: hexagonTerrain_sheet_69
+  - first:
+      213: -6082788431752743055
+    second: hexagonTerrain_sheet_70
+  - first:
+      213: -5237730751832791633
+    second: hexagonTerrain_sheet_71
+  - first:
+      213: 72428664414222459
+    second: hexagonTerrain_sheet_72
+  - first:
+      213: -2579629851176636932
+    second: hexagonTerrain_sheet_73
+  - first:
+      213: 5581500434421291586
+    second: hexagonTerrain_sheet_74
+  - first:
+      213: 9186167184089321866
+    second: hexagonTerrain_sheet_75
+  - first:
+      213: -6628601857879621929
+    second: hexagonTerrain_sheet_76
+  - first:
+      213: 5298381150909530683
+    second: hexagonTerrain_sheet_77
+  - first:
+      213: 7822164404342729693
+    second: hexagonTerrain_sheet_78
+  - first:
+      213: 9153911246601247193
+    second: hexagonTerrain_sheet_79
+  - first:
+      213: -4648067211692741599
+    second: hexagonTerrain_sheet_80
+  - first:
+      213: 467035296171663222
+    second: hexagonTerrain_sheet_81
+  - first:
+      213: 8289665178470351922
+    second: hexagonTerrain_sheet_82
+  - first:
+      213: -3787702601645149121
+    second: hexagonTerrain_sheet_83
+  - first:
+      213: -267020338524071683
+    second: hexagonTerrain_sheet_84
+  - first:
+      213: 826140958672228638
+    second: hexagonTerrain_sheet_85
+  - first:
+      213: -7606686199661120190
+    second: hexagonTerrain_sheet_86
+  - first:
+      213: -3461767535892209002
+    second: hexagonTerrain_sheet_87
+  - first:
+      213: -2533414512253220188
+    second: hexagonTerrain_sheet_88
+  - first:
+      213: -2593531252589638024
+    second: hexagonTerrain_sheet_89
+  - first:
+      213: -2645574097331558087
+    second: hexagonTerrain_sheet_90
+  - first:
+      213: 7061405586331489560
+    second: hexagonTerrain_sheet_91
+  - first:
+      213: 8012922643768900202
+    second: hexagonTerrain_sheet_92
+  - first:
+      213: 4941340213615048982
+    second: hexagonTerrain_sheet_93
+  - first:
+      213: -4138891009431197510
+    second: hexagonTerrain_sheet_94
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d972e0b28edf364fb0a23fbde905ba3
+      internalID: 6440283589634851003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38aa095eae77394e9e65a63d7df3ed8
+      internalID: -4047362472072731897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c779a005b20eefb44a21afa4851b79d0
+      internalID: 4705992599523920580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b736d1b3ddb046548a5a7b74d79f9257
+      internalID: 3550080498659467713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6206e5aa62624da429d77ea03133700d
+      internalID: 275071581313070318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceed947bbab57243b9bb48b641951fa
+      internalID: -4530855532894719890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1908
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e4cf123ecb114485a566b86aa3410
+      internalID: 4726642726972081551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09cb946089aa5f4a9db6f041d8557cc
+      internalID: -68052306540222546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7de1e7abe275294fb96e98b03ebcc60
+      internalID: 226648127763635601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aabf9f3fea5e924aa678184f3722df1
+      internalID: 2722712229916568284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51848e7ba8d6fe941bb535d6ca913177
+      internalID: 8158668242597625775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905b5753a99dbd942bd83e0730c50c02
+      internalID: -5854848222456762470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877b5ff5ff2465f45882f3028c7ba8d8
+      internalID: 5205350190062569382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1766
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeec6339d1d09f47844193726467095
+      internalID: -2605980300579134115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e889dfac0cbebe4192f02cb1518bbce
+      internalID: 3709179100865547167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5452c5627b8eaa94b8c463a52e366175
+      internalID: -2753521383992575481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339af54b3a345d8419ae74d445ddcf21
+      internalID: 6893570976973651501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc78a4a2028659843a5f2b1e068c0632
+      internalID: 7041067867123163859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62d1984aa40ffc4b9fc4bad32d0ee14
+      internalID: -5407053523702443022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37add1831bb9daa4f9f2c60fecd1651b
+      internalID: -6387210490883093258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1624
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07da50249513e824cac40304e12cafa6
+      internalID: 1784965182873210783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4bc8d4c970afe42b4ac82d9e2b71b3
+      internalID: -1801313385464549687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd32cf2fd307fe64f86e721f260f1e68
+      internalID: 277301916752301432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c8b4bf914c2e469445889f3c33f15
+      internalID: -8459687972301234032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bcb214137886c4cb47d4667a4b7d5d
+      internalID: 4354979454393738151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4795c6924e9374986b64f7e64e74cf
+      internalID: 8314276750966766204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6737347464adac845adf16b37b1c5bd9
+      internalID: -2971629197504899481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1482
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2c8c26a2970124b80f62394b5fd332
+      internalID: 4416688292883966977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4c30ca42fde444198a3833f9e8765b
+      internalID: -3867413897589605349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116bc11bb8d7423499c61cb3a5bcc1a3
+      internalID: -6145589264226499348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72474f4022d661a49b6e0c495c936b63
+      internalID: 2596450338289249980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009705c2e1b643546a135dc48e2c8c4e
+      internalID: 5272456680821649529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d4f172e87a8f341a2355423db1ed23
+      internalID: -3813875801351887139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c22c78e7cc06de459a5b16c3fe871df
+      internalID: 3778552499489452605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1340
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c29882cdbb796e4f8fc499d97b55836
+      internalID: 2904475070358225961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a752e11843814c948e9c0cfa8b2c9
+      internalID: -5500190470130750858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1859b81ffb3a17e4a9467840ad477dce
+      internalID: 186447498728675888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f85bea572fe6248b79d016a3015a92
+      internalID: 1115867620992225976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a0cc8f8e7cedf4196bea0657742ed6
+      internalID: 4055057578026912965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f14a7bb8114b524bb129574c690a136
+      internalID: 8186572873226722798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052217abd11a5e343b31838655ff5545
+      internalID: 8055219668766992752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1198
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5adf9a1eff834429e0d5d9905ebfe0
+      internalID: -2566091449693124379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30212bef8b075fc45b4dc29f5b58d1da
+      internalID: 1265813179766135333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ba8cb8cf1b47740b31fe934e56fea8
+      internalID: -9073194345698052348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeecdea35bf1e31419e576a6719dcd82
+      internalID: 8581996585174670212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62daf0d2e2137a478d974789148a988
+      internalID: 2985403263732112574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a5cca9a940cf42b1be6ba5412938e
+      internalID: 4007756150480339926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1056
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b33e84d0280f74f91c07e31ffd8743
+      internalID: 6957002165645207911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1095
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7773f8d8bc5a0048b3f9a252783230d
+      internalID: -6371848657470041761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecaa9826be3207458f319893b7cab23
+      internalID: -4906552377774530470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564b6b3240dabc44c8cdd98699e69553
+      internalID: -6126242997130538244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca77fa40fcd62645bf532f87559700c
+      internalID: -7854686657667954996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a47cb222db1de14b8e92c379ab08673
+      internalID: 4704875633969915374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd7cf5e7e4577f4eb7d739660e4fd03
+      internalID: 5818754657044855696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 914
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30ef70ae551a3a49811e464cb97cf51
+      internalID: -2214304350909585504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 992
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5825450c6e06c3346b78b3a0a23fc042
+      internalID: -6448524209172288755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b7b3e9ed5a29246b7e2fccce4599ec
+      internalID: -7686344866899871112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b5351946e6ddc4babd6570c5e30d80
+      internalID: -2885965405048948906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e65c2afc8591b4fa9652fe9530df12
+      internalID: 8760145730438615418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56757aaa0cbafc445b292c24badaf684
+      internalID: -1856005020023933150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd9c39f4ed9ba944a1d0cb675941cf3
+      internalID: 5942877284331552011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 772
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f69858680b544449bab18f60406464a
+      internalID: -925282826940951895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 888
+        width: 88
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bc0d27477a0fd428e36b00fada1f65
+      internalID: 1874249204688933431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 785
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeab3e25ee58e854ea6e902c1a52c868
+      internalID: 8248100087415028728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1255d9a57b46e5c4cbfec665f688f376
+      internalID: 1376558401785784632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8970bc43a7d9a48884acee4616b00d
+      internalID: 2626395530202532551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaacc2659196b8e44a75411a06ca259e
+      internalID: 3019491175280167864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ce8eb42e0f992448e38dc1b0220790
+      internalID: -7289810467100993399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31128f37f960fd428b230fd590e6d5d
+      internalID: 8802204596777657742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 630
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334a50c0eabdd754dbf8d0791ed9f142
+      internalID: -4098310871450113223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 682
+        width: 88
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee44e7a29f1a234a8c9d11b050b0f63
+      internalID: -6082788431752743055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500cadf03d82b3848b72f52674ec0f9e
+      internalID: -5237730751832791633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee32dac8c557a1440b7462a5352f718c
+      internalID: 72428664414222459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c783fd7a8ede42b23519edd844ef6
+      internalID: -2579629851176636932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a897f6fce91791c4f934dbaae8c20ee6
+      internalID: 5581500434421291586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17299fab41b14843be38d8a113dffc7
+      internalID: 9186167184089321866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 488
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db57e740c500a418f328bb25b84894
+      internalID: -6628601857879621929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22de37eebdc4ec34c8b7bdbd460fee17
+      internalID: 5298381150909530683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd48110f643d8940b5603a201ffa781
+      internalID: 7822164404342729693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe32c9ac8fe83b4386855741d8822bf
+      internalID: 9153911246601247193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b787609a1a64f4c419062e4e74d26b3e
+      internalID: -4648067211692741599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8995841c8f701c445b28c3530f7c0d39
+      internalID: 467035296171663222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 346
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accd7a7ca4535874ca835a95e2aa347d
+      internalID: 8289665178470351922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e489caae0a078458a26ecbfbdf1633
+      internalID: -3787702601645149121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f8f31a8e90cff4c9169b48a0aaa790
+      internalID: -267020338524071683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81f77e9964f2b4f936d33ebc3f34d5
+      internalID: 826140958672228638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca575b103e8acc84eba91999ab10e0c9
+      internalID: -7606686199661120190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96ac3b9d4538a641b0ee948f9f5504b
+      internalID: -3461767535892209002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 204
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f61fd1b08352d64292d0065117713f9
+      internalID: -2533414512253220188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef626b71ea9c4746abcc45677225a47
+      internalID: -2593531252589638024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e82ced132665fe488f409a99970fd7d
+      internalID: -2645574097331558087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7dfca9892afbe4889124bdb4776410
+      internalID: 7061405586331489560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ed166b9f46d674496a7fcb97085a0a
+      internalID: 8012922643768900202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72582537854d85944898c75ce5c377f6
+      internalID: 4941340213615048982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hexagonTerrain_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 62
+        width: 120
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639a0079072805740958f48064a3be45
+      internalID: -4138891009431197510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
