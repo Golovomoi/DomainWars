@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class RaycasControls : MonoBehaviour
 {
-    public Camera camera;
+    //public Camera camera;
+
+    //Camera m_MainCamera;
 
     private Vector3 touchPosWorld;
     private TouchPhase touchPhase = TouchPhase.Began;
@@ -19,11 +21,11 @@ public class RaycasControls : MonoBehaviour
     {
         if (Input.touchCount == 1 && Input.GetTouch(0).phase == touchPhase)
         {
-            touchPosWorld = camera.ScreenToWorldPoint(Input.GetTouch(0).position);
+            touchPosWorld = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
 
             Vector2 touchPosWorld2D = new Vector2(touchPosWorld.x, touchPosWorld.y);
 
-            RaycastHit2D hitInformation = Physics2D.Raycast(touchPosWorld2D, camera.transform.forward);
+            RaycastHit2D hitInformation = Physics2D.Raycast(touchPosWorld2D, Camera.main.transform.forward);
 
             if (hitInformation.collider != null)
             {
@@ -33,7 +35,8 @@ public class RaycasControls : MonoBehaviour
                 UnityEngine.Tilemaps.Tilemap tilemap = touchedObject.GetComponent<UnityEngine.Tilemaps.Tilemap>();
                 Vector3Int cellpos = tilemap.WorldToCell(touchPosWorld2D);
                 //Destroy(GameFieldTiles.instance.tiles[cellpos].tileGameObject);
-                //Debug.Log("Touched " + touchedObject.transform.name + ", additionalField: " + GameFieldTiles.instance.tiles[cellpos].AdditionalField);
+                //Debug.Log("Touched " + touchedObject.transform.name + ", additionalField: " + GameFieldTiles.instance.tiles[cellpos].additionalField);
+                Debug.Log("touched cell: " + cellpos);
 
             }
             else

@@ -15,7 +15,7 @@ TagManager:
   - 
   - terrain
   - resources
-  - 
+  - structures
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: resources
     uniqueID: 2683222845
+    locked: 0
+  - name: structures
+    uniqueID: 2062659113
     locked: 0
