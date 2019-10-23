@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class GameTile : IPointerClickHandler
 {
     public Vector3Int LocalPlace { get; set;  }
-    public enum TileType { None, Terrain, Resource, Capital, InvadeBld, DefenceBld, OcupyBld }
+    public enum TileType { None, Terrain, Wood, Diamonds, Force, Capital, InvadeBld, DefenceBld, OcupyBld }
     //private defaultTileType = TileType.None;
     public int AdditionalField { get; set; }
     public TileType GameFieldTileType { get; set; }
