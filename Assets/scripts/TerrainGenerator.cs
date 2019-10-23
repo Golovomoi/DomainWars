@@ -24,7 +24,8 @@ public class TerrainGenerator : MonoBehaviour
         //GameObject plGameobj = Instantiate(playerPrefab, gameField.CellToWorld(FindSpawnPosition(new Vector3Int { x = -gameFieldSize/ 4, y = gameFieldSize / 4, z = 0 })), Quaternion.identity);
         //PlayerBehavior playerBehaviorScript = plGameobj.GetComponent<PlayerBehavior>();
         //playerBehaviorScript.playerId = playerId;
-        FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4, z = 0 }, playerId);
+        Vector3Int spawnPos = FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4, z = 0 });
+        SpawnCapital(spawnPos, playerId);
         PlayerBehavior.instance.PlayerId = playerId;
     }
 
@@ -46,6 +47,18 @@ public class TerrainGenerator : MonoBehaviour
         {
             gameField.SetTile(new Vector3Int(pos.x, pos.y, pos.z), TerrainTile);
 
+            var gameTile = new GameTile
+            {
+                LocalPlace = pos,
+                AdditionalField = 0,
+                OwnerId = 0,
+                OwnerInfluence = 1000,
+                GameFieldTileType = GameTile.TileType.Terrain,
+                InvaderId = 0,
+                InvaderInfluence = 0,
+                BuildingLvl = 0
+            };
+            GameFieldTiles.instance.tiles.Add(pos, gameTile);
 
             //var tileType = GameTile.TileType.None;
             int genTileType = Random.Range(0, 100) / 5;
@@ -54,13 +67,13 @@ public class TerrainGenerator : MonoBehaviour
             switch (genTileType)
             {
                 case 0:
-                    AddResource(diamondPrefab, pos);
+                    AddResource(diamondPrefab, GameTile.TileType.Diamonds, pos);
                     break;
                 case 1:
-                    AddResource(forcePrefab, pos);
+                    AddResource(forcePrefab, GameTile.TileType.Force, pos);
                     break;
                 case 2:
-                    AddResource(woodPrefab, pos);
+                    AddResource(woodPrefab, GameTile.TileType.Wood, pos);
                     break;
             }
         }
@@ -70,31 +83,33 @@ public class TerrainGenerator : MonoBehaviour
     {
         
     }
-    private Vector3Int FindSpawnPosition(Vector3Int spawnPos, int playerId)
+    void SpawnCapital(Vector3Int spawnPos, int playerId)
+    {
+        GameTile gameTile = GameFieldTiles.instance.tiles[spawnPos];
+        if (gameTile.tileGameObject != null) 
+            Destroy(gameTile.tileGameObject);
+        gameTile.GameFieldTileType = GameTile.TileType.Capital;
+        gameTile.OwnerId = playerId;
+        gameTile.OwnerInfluence = 1000;
+        gameTile.tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(spawnPos), Quaternion.identity);
+        PlayersInteractions.instance.AddCapital(spawnPos);
+        PlayersInteractions.instance.AddPlayerColor(playerId, Random.ColorHSV());
+    }
+    private Vector3Int FindSpawnPosition(Vector3Int spawnPos)
     {
         Debug.Log("trying: " + spawnPos);
         if (GameFieldTiles.instance.tiles.ContainsKey(spawnPos)) Debug.Log("tile busy"); else Debug.Log("tile free");
         //TODO: rework, increese range
         Vector3Int initialSpawnPos = spawnPos;
         int spawnTries = 0;
-        while( spawnTries < 6/*gameFieldSize / playersCount*/) { 
-            if (!GameFieldTiles.instance.tiles.ContainsKey(spawnPos))
+        while( spawnTries < 6/*gameFieldSize / playersCount*/) {
+            GameTile gameTile = GameFieldTiles.instance.tiles[spawnPos];
+            if (gameTile.GameFieldTileType == GameTile.TileType.Terrain)
             {
                 Debug.Log(spawnPos + " free");
-                var gameTile = new GameTile
-                {
-                    LocalPlace = spawnPos,
-                    AdditionalField = 0,
-                    OwnerId = 1,
-                    OwnerInfluence = 1000,
-                    GameFieldTileType = GameTile.TileType.Capital,
-                    tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(spawnPos), Quaternion.identity)
-                };
-                GameFieldTiles.instance.tiles.Add(spawnPos, gameTile);
-                PlayersInteractions.instance.AddCapital(spawnPos);
                 return spawnPos;
             }
-            switch (spawnTries % 6)
+            switch (spawnTries++ % 6)
             {
                 case 0:
                     spawnPos.x += 1;
@@ -117,35 +132,14 @@ public class TerrainGenerator : MonoBehaviour
 
             }
             Debug.Log("trying next");
-            spawnTries++;
-        }
-        if (GameFieldTiles.instance.tiles.ContainsKey(initialSpawnPos))
-        {
-            //rethink, rework. DOESNT WORK NOW!!
-            Destroy(GameFieldTiles.instance.tiles[initialSpawnPos].tileGameObject);
-            GameFieldTiles.instance.tiles[initialSpawnPos].tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(initialSpawnPos), Quaternion.identity);
-        }
-        else
-        {
-            var gameTile = new GameTile
-            {
-                AdditionalField = 0,
-                GameFieldTileType = GameTile.TileType.Capital,
-                tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(initialSpawnPos), Quaternion.identity)
-            };
-            GameFieldTiles.instance.tiles.Add(initialSpawnPos, gameTile);
         }
         return initialSpawnPos;
     }
-    private void AddResource(GameObject resourceGameObject, Vector3Int pos)
+    private void AddResource(GameObject resourceGameObject, GameTile.TileType resourceType, Vector3Int pos)
     {
-        var gameTile = new GameTile
-        {
-            AdditionalField = 0,
-            GameFieldTileType = GameTile.TileType.Resource,
-            tileGameObject = Instantiate(resourceGameObject, gameField.CellToLocal(pos), Quaternion.identity)
-        };
+        GameTile gameTile = GameFieldTiles.instance.tiles[pos];
+        gameTile.GameFieldTileType = resourceType;
+        gameTile.tileGameObject = Instantiate(resourceGameObject, gameField.CellToLocal(pos), Quaternion.identity);
         gameTile.tileGameObject.transform.parent = gameField.transform;
-        GameFieldTiles.instance.tiles.Add(pos, gameTile);
     }
 }
