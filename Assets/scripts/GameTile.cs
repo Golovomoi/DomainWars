@@ -2,13 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.EventSystems;
 
-public class GameTile
+public class GameTile : IPointerClickHandler
 {
-    public enum TileType { None, Terrain, Resource, Capital, Structure}
+    public Vector3Int LocalPlace { get; set;  }
+    public enum TileType { None, Terrain, Resource, Capital, InvadeBld, DefenceBld, OcupyBld }
     //private defaultTileType = TileType.None;
-    public int additionalField { get; set; }
-    public TileType gameFieldTileType { get; set; }
+    public int AdditionalField { get; set; }
+    public TileType GameFieldTileType { get; set; }
+    public int OwnerId { get; set; }
+    public int OwnerInfluence { get; set; }
+    public int InvaderId { get; set; }
+    public int InvaderInfluence { get; set; }
+    public int BuildingLvl { get; set; }
     public GameObject tileGameObject;
     // Start is called before the first frame update
     void Start()
@@ -25,5 +32,10 @@ public class GameTile
     void Update()
     {
         
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        Debug.Log("CLICK!");
     }
 }

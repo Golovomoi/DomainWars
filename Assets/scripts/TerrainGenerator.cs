@@ -19,9 +19,20 @@ public class TerrainGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SpawnResources();
+        int playerId = 1;
+        //GameObject plGameobj = Instantiate(playerPrefab, gameField.CellToWorld(FindSpawnPosition(new Vector3Int { x = -gameFieldSize/ 4, y = gameFieldSize / 4, z = 0 })), Quaternion.identity);
+        //PlayerBehavior playerBehaviorScript = plGameobj.GetComponent<PlayerBehavior>();
+        //playerBehaviorScript.playerId = playerId;
+        FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4, z = 0 }, playerId);
+        PlayerBehavior.instance.PlayerId = playerId;
+    }
+
+    void SpawnResources()
+    {
         //TODO: "mae as const"
         gameField.size = new Vector3Int(gameFieldSize, gameFieldSize, 0);
-        gameField.origin = new Vector3Int(-gameFieldSize/2, -gameFieldSize/2, 0);
+        gameField.origin = new Vector3Int(-gameFieldSize / 2, -gameFieldSize / 2, 0);
         gameField.ResizeBounds();
         gameField.SetTile(new Vector3Int(0, 0, 0), TerrainTile);
         //gameField.SetTile(new Vector3Int(0, 1, 0), testTile);
@@ -37,7 +48,7 @@ public class TerrainGenerator : MonoBehaviour
 
 
             //var tileType = GameTile.TileType.None;
-            int genTileType = Random.Range(0, 100)/5;
+            int genTileType = Random.Range(0, 100) / 5;
             //if (genTileType < 3) tileType = GameTile.TileType.Resource;
             //genTileType = 0;
             switch (genTileType)
@@ -53,15 +64,13 @@ public class TerrainGenerator : MonoBehaviour
                     break;
             }
         }
-        Instantiate(playerPrefab, gameField.CellToWorld(FindSpawnPosition(new Vector3Int { x = -gameFieldSize/ 4, y = gameFieldSize / 4, z = 0 })), Quaternion.identity);
     }
-
     // Update is called once per frame
     void Update()
     {
         
     }
-    private Vector3Int FindSpawnPosition(Vector3Int spawnPos)
+    private Vector3Int FindSpawnPosition(Vector3Int spawnPos, int playerId)
     {
         Debug.Log("trying: " + spawnPos);
         if (GameFieldTiles.instance.tiles.ContainsKey(spawnPos)) Debug.Log("tile busy"); else Debug.Log("tile free");
@@ -74,11 +83,15 @@ public class TerrainGenerator : MonoBehaviour
                 Debug.Log(spawnPos + " free");
                 var gameTile = new GameTile
                 {
-                    additionalField = 0,
-                    gameFieldTileType = GameTile.TileType.Capital,
+                    LocalPlace = spawnPos,
+                    AdditionalField = 0,
+                    OwnerId = 1,
+                    OwnerInfluence = 1000,
+                    GameFieldTileType = GameTile.TileType.Capital,
                     tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(spawnPos), Quaternion.identity)
                 };
                 GameFieldTiles.instance.tiles.Add(spawnPos, gameTile);
+                PlayersInteractions.instance.AddCapital(spawnPos);
                 return spawnPos;
             }
             switch (spawnTries % 6)
@@ -108,6 +121,7 @@ public class TerrainGenerator : MonoBehaviour
         }
         if (GameFieldTiles.instance.tiles.ContainsKey(initialSpawnPos))
         {
+            //rethink, rework. DOESNT WORK NOW!!
             Destroy(GameFieldTiles.instance.tiles[initialSpawnPos].tileGameObject);
             GameFieldTiles.instance.tiles[initialSpawnPos].tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(initialSpawnPos), Quaternion.identity);
         }
@@ -115,8 +129,8 @@ public class TerrainGenerator : MonoBehaviour
         {
             var gameTile = new GameTile
             {
-                additionalField = 0,
-                gameFieldTileType = GameTile.TileType.Capital,
+                AdditionalField = 0,
+                GameFieldTileType = GameTile.TileType.Capital,
                 tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(initialSpawnPos), Quaternion.identity)
             };
             GameFieldTiles.instance.tiles.Add(initialSpawnPos, gameTile);
@@ -127,8 +141,8 @@ public class TerrainGenerator : MonoBehaviour
     {
         var gameTile = new GameTile
         {
-            additionalField = 0,
-            gameFieldTileType = GameTile.TileType.Resource,
+            AdditionalField = 0,
+            GameFieldTileType = GameTile.TileType.Resource,
             tileGameObject = Instantiate(resourceGameObject, gameField.CellToLocal(pos), Quaternion.identity)
         };
         gameTile.tileGameObject.transform.parent = gameField.transform;

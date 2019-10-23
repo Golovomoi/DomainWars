@@ -1,16 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Tilemaps;
-using UnityEngine.EventSystems;
 
-public class GameFieldTiles : MonoBehaviour
+public class PlayerBehavior : MonoBehaviour
 {
-    public static GameFieldTiles instance;
-    public Tilemap tilemap;
-
-    public Dictionary<Vector3Int, GameTile> tiles;
-
+    public static PlayerBehavior instance;
+    public int PlayerId { get; set; }
+    public Vector3Int SelectedField { get; set; }
     private void Awake()
     {
         if (instance == null)
@@ -21,26 +17,17 @@ public class GameFieldTiles : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        GameFieldInit();
+        Debug.Log("Player awaken ");
     }
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    private void GameFieldInit()
-    {
-        tiles = new Dictionary<Vector3Int, GameTile>();
-    }
-    public void SetNewGameTile()
-    {
-
     }
 }
