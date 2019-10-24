@@ -24,7 +24,7 @@ public class TerrainGenerator : MonoBehaviour
         //GameObject plGameobj = Instantiate(playerPrefab, gameField.CellToWorld(FindSpawnPosition(new Vector3Int { x = -gameFieldSize/ 4, y = gameFieldSize / 4, z = 0 })), Quaternion.identity);
         //PlayerBehavior playerBehaviorScript = plGameobj.GetComponent<PlayerBehavior>();
         //playerBehaviorScript.playerId = playerId;
-        Vector3Int spawnPos = FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4, z = 0 });
+        Vector3Int spawnPos = FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4 + 3, z = 0 });
         SpawnCapital(spawnPos, playerId);
         PlayerBehavior.instance.PlayerId = playerId;
     }
@@ -98,7 +98,7 @@ public class TerrainGenerator : MonoBehaviour
     private Vector3Int FindSpawnPosition(Vector3Int spawnPos)
     {
         Debug.Log("trying: " + spawnPos);
-        if (GameFieldTiles.instance.tiles.ContainsKey(spawnPos)) Debug.Log("tile busy"); else Debug.Log("tile free");
+        if (GameFieldTiles.instance.tiles[spawnPos].GameFieldTileType != GameTile.TileType.Terrain) Debug.Log("tile busy"); else Debug.Log("tile free");
         //TODO: rework, increese range
         Vector3Int initialSpawnPos = spawnPos;
         int spawnTries = 0;
@@ -109,28 +109,7 @@ public class TerrainGenerator : MonoBehaviour
                 Debug.Log(spawnPos + " free");
                 return spawnPos;
             }
-            switch (spawnTries++ % 6)
-            {
-                case 0:
-                    spawnPos.x += 1;
-                    break;
-                case 1:
-                    spawnPos.x -= 2;
-                    break;
-                case 2:
-                    spawnPos.y += 1;
-                    break;
-                case 3:
-                    spawnPos.y -= 2;
-                    break;
-                case 4:
-                    spawnPos.x += 1;
-                    break;
-                case 5:
-                    spawnPos.y += 2;
-                    break;
-
-            }
+            spawnPos = GameFieldTiles.instance.OddrOffsetNeighbor(initialSpawnPos, spawnTries++);
             Debug.Log("trying next");
         }
         return initialSpawnPos;

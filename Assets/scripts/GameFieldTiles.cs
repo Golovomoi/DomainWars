@@ -10,7 +10,13 @@ public class GameFieldTiles : MonoBehaviour
     public Tilemap tilemap;
 
     public Dictionary<Vector3Int, GameTile> tiles;
-
+    public static readonly int[,,] OddrDirections = 
+    { 
+        { { 1, 0 }, { 0, 1 }, { -1, 1 },
+          { -1, 0 }, { -1, -1 }, { 0, -1 } },
+        { { 1, 0 }, {1, 1 }, { 0, 1 },
+          { -1,  0}, { 0, -1}, {1, -1} }
+    };
     private void Awake()
     {
         if (instance == null)
@@ -33,6 +39,12 @@ public class GameFieldTiles : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public Vector3Int OddrOffsetNeighbor(Vector3Int hex, int direction)
+    {
+        int parity = hex.y & 1;
+        return new Vector3Int(hex.x + OddrDirections[parity, direction, 0], hex.y + OddrDirections[parity, direction, 1], hex.z);
     }
 
     private void GameFieldInit()
