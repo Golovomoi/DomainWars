@@ -5,11 +5,16 @@ using UnityEngine;
 public class PlayersInteractions : MonoBehaviour
 {
     public static PlayersInteractions instance;
-    private List<Color> PlayersColors;
+    // May Be move to GameFieldTiles;
+    private Dictionary<int, Color> PlayersColors = new Dictionary<int, Color>();
     private HashSet<Vector3Int> AtackBuildings = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> DefenceBuildings = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> InvadeBuildings = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> Capitals = new HashSet<Vector3Int>();
+    private Queue<Vector3Int> BfQueue = new Queue<Vector3Int>();
+    private HashSet<Vector3Int> VisitedFields = new HashSet<Vector3Int>();
+    delegate void ChangeTileState(GameTile gameTile, int influenceValue, int playerId);
+    int debugint;
     private void Awake()
     {
         if (instance == null)
@@ -24,7 +29,7 @@ public class PlayersInteractions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        debugint = 0;
     }
 
     // Update is called once per frame
@@ -35,7 +40,10 @@ public class PlayersInteractions : MonoBehaviour
 
     void FixedUpdate()
     {
+        Debug.Log("Some!");
         IncreseGlobalInfluence();
+        IncreseLocalInfluence();
+        ExpandBorders();
     }
     public bool TryBuildAtackStruct(Vector3Int buildPos)
     {
@@ -46,22 +54,154 @@ public class PlayersInteractions : MonoBehaviour
     {
         return true;
     }
-    public void AddCapital(Vector3Int capitalPos)
+    public void AddCapital(Vector3Int capitalPos, GameTile gameTile, int playerId)
     {
+        gameTile.OwnerId = playerId;
+        gameTile.OwnerInfluence = 1000;
         Capitals.Add(capitalPos);
+        GameFieldTiles.instance.tilemap.SetTileFlags(gameTile.LocalPlace, UnityEngine.Tilemaps.TileFlags.None);
+        GameFieldTiles.instance.tilemap.SetColor(gameTile.LocalPlace, PlayersColors[playerId]);
     }
-    private void IncreseGlobalInfluence()
+    public void AddPlayerColor(int playerId, Color playerColor)
     {
+        PlayersColors.Add(playerId, playerColor);
+    }
+    private void ExpandBorders()
+    {
+        ChangeTileState tileFunc = ExpandBordersInTile;
         foreach (var buildingPos in Capitals)
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Capital)
             {
-                IncreseGlobalInfluenceFromTile(buildingPos, 13);
+                ChangelInfluenceByBuilding(buildingPos, 6, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
     }
-    private void IncreseGlobalInfluenceFromTile(Vector3Int tilePos, int influenceValue)
+    private void IncreseLocalInfluence()
     {
-
+        ChangeTileState tileFunc = ChangeLocalInfluenceInTile;
+        foreach (var buildingPos in Capitals)
+        {
+            if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Capital)
+            {
+                ChangelInfluenceByBuilding(buildingPos, 6, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+            }
+        }
+    }
+    private void IncreseGlobalInfluence()
+    {
+        ChangeTileState tileFunc = ChangeGlobalInfluenceInTile;
+        foreach (var buildingPos in Capitals)
+        {
+            if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Capital)
+            {
+                ChangelInfluenceByBuilding(buildingPos, 6, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+            }
+        }
+    }
+    private void ChangelInfluenceByBuilding(Vector3Int tilePos, int influenceValue, int playerId, ChangeTileState tileFunc)
+    {
+        BfQueue.Clear();
+        BfQueue.Enqueue(tilePos);
+        VisitedFields.Clear();
+        VisitedFields.Add(tilePos);
+        while(BfQueue.Count != 0)
+        {
+            Vector3Int currentField = BfQueue.Dequeue();
+            int distanceFromBuilding = GameFieldTiles.instance.TileDistance(tilePos, currentField);
+            //Debug.Log("distance from " + tilePos + "to " + currentField + "is: "+  distanceFromBuilding);
+            //Debug.Log("in cycle: " + currentField);
+            GameTile gameTile = GameFieldTiles.instance.tiles[currentField];
+            tileFunc(gameTile, influenceValue - distanceFromBuilding, playerId);
+            if (distanceFromBuilding < influenceValue)
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    Vector3Int nextField = GameFieldTiles.instance.OddrOffsetNeighbor(currentField, i);
+                    if (!VisitedFields.Contains(nextField))
+                    {
+                        //Debug.Log("added: " + nextField);
+                        VisitedFields.Add(nextField);
+                        BfQueue.Enqueue(nextField);
+                    }
+                }
+            }
+        }
+    }
+    private void ChangeGlobalInfluenceInTile(GameTile gameTile, int influenceValue, int playerId)
+    {
+        if (gameTile.OwnerId != playerId)
+        {
+            int remaindedInfluence = influenceValue;
+            if (gameTile.InvaderId != playerId)
+            {
+                if (gameTile.OwnerInfluence > 0)
+                {
+                    if (gameTile.OwnerInfluence <= remaindedInfluence)
+                    {
+                        remaindedInfluence -= gameTile.OwnerInfluence;
+                        gameTile.OwnerInfluence = 0;
+                    }
+                    else
+                    {
+                        gameTile.OwnerInfluence -= remaindedInfluence;
+                        remaindedInfluence = 0;
+                    }
+                }
+                if (gameTile.InvaderInfluence < remaindedInfluence)
+                {
+                    gameTile.InvaderInfluence = remaindedInfluence - gameTile.InvaderInfluence;
+                    gameTile.InvaderId = playerId;
+                }
+                else
+                {
+                    gameTile.InvaderInfluence -= remaindedInfluence;
+                }
+            }
+            else
+            {
+                gameTile.InvaderInfluence += remaindedInfluence;
+            }
+        }
+    }
+    private void ChangeLocalInfluenceInTile(GameTile gameTile, int influenceValue, int playerId)
+    {
+        if (gameTile.OwnerId == playerId)
+        {
+            int remaindedInfluence = influenceValue;
+            if (gameTile.InvaderId != playerId)
+            {
+                if (gameTile.InvaderInfluence <= remaindedInfluence)
+                {
+                    remaindedInfluence -= gameTile.InvaderInfluence;
+                    gameTile.OwnerInfluence += remaindedInfluence;
+                    gameTile.InvaderInfluence = 0;
+                    gameTile.InvaderId = playerId;
+                }
+                else
+                {
+                    gameTile.InvaderInfluence -= remaindedInfluence;
+                }
+            }
+            else
+            {
+                gameTile.OwnerInfluence += remaindedInfluence;
+            }
+        }
+    }
+    private void ExpandBordersInTile(GameTile gameTile, int influenceValue, int playerId)
+    {
+        //TODO: Forbidden Cells, recources, destroy structures
+        if (gameTile.OwnerId != playerId)
+        {
+            if (gameTile.InvaderId == playerId && gameTile.InvaderInfluence > 0)
+            {
+                gameTile.OwnerId = playerId;
+                gameTile.OwnerInfluence = gameTile.InvaderInfluence;
+                gameTile.InvaderInfluence = 0;
+                GameFieldTiles.instance.tilemap.SetTileFlags(gameTile.LocalPlace, UnityEngine.Tilemaps.TileFlags.None);
+                GameFieldTiles.instance.tilemap.SetColor(gameTile.LocalPlace, PlayersColors[playerId]);
+            }
+        }
     }
 }

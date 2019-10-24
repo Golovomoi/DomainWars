@@ -42,7 +42,7 @@ public class TerrainGenerator : MonoBehaviour
         //gameField.SetTile(new Vector3Int(-1, 1, 0), testTile);
         //gameField.SetTile(new Vector3Int(-1, -1, 0), testTile);
         //gameField.SetTile(new Vector3Int(0, -1, 0), testTile);
-        //BoundsInt gameArea = new BoundsInt(gameField.origin, gameField.size);ss
+        //BoundsInt gameArea = new BoundsInt(gameField.origin, gameField.size);
         foreach (Vector3Int pos in gameField.cellBounds.allPositionsWithin)
         {
             gameField.SetTile(new Vector3Int(pos.x, pos.y, pos.z), TerrainTile);
@@ -52,7 +52,7 @@ public class TerrainGenerator : MonoBehaviour
                 LocalPlace = pos,
                 AdditionalField = 0,
                 OwnerId = 0,
-                OwnerInfluence = 1000,
+                OwnerInfluence = 10,
                 GameFieldTileType = GameTile.TileType.Terrain,
                 InvaderId = 0,
                 InvaderInfluence = 0,
@@ -89,11 +89,9 @@ public class TerrainGenerator : MonoBehaviour
         if (gameTile.tileGameObject != null) 
             Destroy(gameTile.tileGameObject);
         gameTile.GameFieldTileType = GameTile.TileType.Capital;
-        gameTile.OwnerId = playerId;
-        gameTile.OwnerInfluence = 1000;
         gameTile.tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(spawnPos), Quaternion.identity);
-        PlayersInteractions.instance.AddCapital(spawnPos);
         PlayersInteractions.instance.AddPlayerColor(playerId, Random.ColorHSV());
+        PlayersInteractions.instance.AddCapital(spawnPos, gameTile, playerId);
     }
     private Vector3Int FindSpawnPosition(Vector3Int spawnPos)
     {
