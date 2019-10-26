@@ -246,6 +246,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1617770997}
+  diamondPrefab: {fileID: 6345377357518770814, guid: 4dbba8b06748298419c46283856dbbf9,
+    type: 3}
+  forcePrefab: {fileID: 9139297574840474031, guid: 92e32d594dbc9df40a8b9fb16bc72854,
+    type: 3}
+  woodPrefab: {fileID: 6874968492380977651, guid: 44c34c7cbd425fa4eaa77e389605460f,
+    type: 3}
+  capitalPrefab: {fileID: 1108576247755452149, guid: d0495b3f49004e94fab02df56981826b,
+    type: 3}
+  InvadeStructPrefab: {fileID: 4781961993519228069, guid: c6e312e52d12e104ba00a3af33d76664,
+    type: 3}
+  DefenceStructPrefab: {fileID: 4543671677168302556, guid: 41e3df67bbc8dca4a86e2583b3341541,
+    type: 3}
+  OcupyStructPrefab: {fileID: 1359129434028858135, guid: 2cdd516228dfc9142b4ef671e04dfb2d,
+    type: 3}
 --- !u!114 &152545190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,7 +622,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 662577826}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1309763813}
+        m_MethodName: BuildOcupyClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &662577826
@@ -761,7 +786,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 810599287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1309763813}
+        m_MethodName: BuildDefenceClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &810599287
@@ -1554,7 +1590,7 @@ GameObject:
   - component: {fileID: 2113409265}
   - component: {fileID: 2113409268}
   m_Layer: 5
-  m_Name: AtackButton
+  m_Name: InvadeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1624,7 +1660,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1309763813}
-        m_MethodName: BuildAtackClick
+        m_MethodName: BuildInvadeClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

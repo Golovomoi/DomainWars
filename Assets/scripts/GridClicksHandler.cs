@@ -55,13 +55,21 @@ public class GridClicksHandler : MonoBehaviour, IPointerClickHandler, IPointerDo
             y = eventData.position.y,
             z = 10
         };
+        Vector3 UpPos = new Vector3
+        {
+            x = eventData.pressPosition.x,
+            y = eventData.pressPosition.y,
+            z = 10
+        };
+        _ = new Vector3Int();
+        Vector3Int pressCell = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(UpPos));
         _ = new Vector3Int();
         Vector3Int currentCellPos = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(clickPos));
-        
+
         //SelectedField = currentCellPos;
-        
-        //Debug.Log("Event data up time: " + Time.realtimeSinceStartup);
-        if ((Time.realtimeSinceStartup - pointerDownTime < 0.5f) && !buildMenuCanvas.enabled)
+
+        //Debug.Log("Event data up time: " + Time.realtimeSinceStartup); (Time.realtimeSinceStartup - pointerDownTime < 0.5f)
+        if ((currentCellPos  == pressCell) && !buildMenuCanvas.enabled)
         {
             SetSelecetedField(currentCellPos);
             _ = new Vector3();

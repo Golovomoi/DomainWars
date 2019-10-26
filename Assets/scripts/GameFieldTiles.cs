@@ -8,6 +8,13 @@ public class GameFieldTiles : MonoBehaviour
 {
     public static GameFieldTiles instance;
     public Tilemap tilemap;
+    public GameObject diamondPrefab;
+    public GameObject forcePrefab;
+    public GameObject woodPrefab;
+    public GameObject capitalPrefab;
+    public GameObject InvadeStructPrefab;
+    public GameObject DefenceStructPrefab;
+    public GameObject OcupyStructPrefab;
 
     public Dictionary<Vector3Int, GameTile> tiles;
     public static readonly int[,,] OddrDirections = 
@@ -61,6 +68,54 @@ public class GameFieldTiles : MonoBehaviour
     private void GameFieldInit()
     {
         tiles = new Dictionary<Vector3Int, GameTile>();
+    }
+    public void AddCapitalStructure(Vector3Int buildPos, int playerId)
+    {
+        GameTile gameTile = tiles[buildPos];
+        gameTile.OwnerId = playerId;
+        gameTile.OwnerInfluence = 1000;
+        gameTile.GameFieldTileType = GameTile.TileType.Structure;
+        gameTile.StructType = GameTile.StructureType.Capital;
+        gameTile.BuildingLvl = 4;
+        if (gameTile.tileGameObject != null)
+            Destroy(gameTile.tileGameObject);
+        gameTile.tileGameObject = Instantiate(capitalPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
+
+    }
+    public void AddInvadeStructure(Vector3Int buildPos)
+    {
+        GameTile gameTile = tiles[buildPos];
+        gameTile.GameFieldTileType = GameTile.TileType.Structure;
+        gameTile.StructType = GameTile.StructureType.InvadeBld;
+        gameTile.BuildingLvl = 2;
+        if (gameTile.tileGameObject != null)
+            Destroy(gameTile.tileGameObject);
+        gameTile.tileGameObject = Instantiate(InvadeStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
+    }
+    public void AddDefenceStructure(Vector3Int buildPos)
+    {
+        GameTile gameTile = tiles[buildPos];
+        gameTile.GameFieldTileType = GameTile.TileType.Structure;
+        gameTile.StructType = GameTile.StructureType.DefenceBld;
+        gameTile.BuildingLvl = 2;
+        if (gameTile.tileGameObject != null)
+            Destroy(gameTile.tileGameObject);
+        gameTile.tileGameObject = Instantiate(DefenceStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
+    }
+    public void AddOcupyStructure(Vector3Int buildPos)
+    {
+        GameTile gameTile = tiles[buildPos];
+        gameTile.GameFieldTileType = GameTile.TileType.Structure;
+        gameTile.StructType = GameTile.StructureType.OcupyBld;
+        gameTile.BuildingLvl = 2;
+        if (gameTile.tileGameObject != null)
+            Destroy(gameTile.tileGameObject);
+        gameTile.tileGameObject = Instantiate(OcupyStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
+    }
+    public void SetTileColor(Vector3Int tilePos, Color tileColor)
+    {
+        tilemap.SetTileFlags(tilePos, TileFlags.None);
+        tilemap.SetColor(tilePos, tileColor);
     }
     public void SetNewGameTile()
     {

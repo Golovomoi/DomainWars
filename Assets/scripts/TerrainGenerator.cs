@@ -36,12 +36,6 @@ public class TerrainGenerator : MonoBehaviour
         gameField.origin = new Vector3Int(-gameFieldSize / 2, -gameFieldSize / 2, 0);
         gameField.ResizeBounds();
         gameField.SetTile(new Vector3Int(0, 0, 0), TerrainTile);
-        //gameField.SetTile(new Vector3Int(0, 1, 0), testTile);
-        //gameField.SetTile(new Vector3Int(1, 0, 0), testTile);
-        //gameField.SetTile(new Vector3Int(-1, 0, 0), testTile);
-        //gameField.SetTile(new Vector3Int(-1, 1, 0), testTile);
-        //gameField.SetTile(new Vector3Int(-1, -1, 0), testTile);
-        //gameField.SetTile(new Vector3Int(0, -1, 0), testTile);
         //BoundsInt gameArea = new BoundsInt(gameField.origin, gameField.size);
         foreach (Vector3Int pos in gameField.cellBounds.allPositionsWithin)
         {
@@ -56,6 +50,7 @@ public class TerrainGenerator : MonoBehaviour
                 GameFieldTileType = GameTile.TileType.Terrain,
                 InvaderId = 0,
                 InvaderInfluence = 0,
+                StructType = GameTile.StructureType.None,
                 BuildingLvl = 0
             };
             GameFieldTiles.instance.tiles.Add(pos, gameTile);
@@ -64,6 +59,7 @@ public class TerrainGenerator : MonoBehaviour
             int genTileType = Random.Range(0, 100) / 5;
             //if (genTileType < 3) tileType = GameTile.TileType.Resource;
             //genTileType = 0;
+            //TODO:  move AddRessourceto GameFieldTiles
             switch (genTileType)
             {
                 case 0:
@@ -86,10 +82,6 @@ public class TerrainGenerator : MonoBehaviour
     void SpawnCapital(Vector3Int spawnPos, int playerId)
     {
         GameTile gameTile = GameFieldTiles.instance.tiles[spawnPos];
-        if (gameTile.tileGameObject != null) 
-            Destroy(gameTile.tileGameObject);
-        gameTile.GameFieldTileType = GameTile.TileType.Capital;
-        gameTile.tileGameObject = Instantiate(capitalPrefab, gameField.CellToLocal(spawnPos), Quaternion.identity);
         PlayersInteractions.instance.AddPlayerColor(playerId, Random.ColorHSV());
         PlayersInteractions.instance.AddCapital(spawnPos, gameTile, playerId);
     }

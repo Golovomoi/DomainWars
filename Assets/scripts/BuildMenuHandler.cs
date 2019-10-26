@@ -17,13 +17,24 @@ public class BuildMenuHandler : MonoBehaviour
         
     }
 
-    public void BuildAtackClick()
+    public void BuildInvadeClick()
     {
         
-        PlayersInteractions.instance.TryBuildAtackStruct(GridClicksHandler.instance.SelectedField);
+        PlayersInteractions.instance.TryBuildInvadeStruct(GridClicksHandler.instance.SelectedField,  PlayerBehavior.instance.PlayerId);
         CloseBuildMenu();
     }
+    public void BuildDefenceClick()
+    {
 
+        PlayersInteractions.instance.TryBuildDefStruct(GridClicksHandler.instance.SelectedField, PlayerBehavior.instance.PlayerId);
+        CloseBuildMenu();
+    }
+    public void BuildOcupyClick()
+    {
+
+        PlayersInteractions.instance.TryBuildOcupyStruct(GridClicksHandler.instance.SelectedField, PlayerBehavior.instance.PlayerId);
+        CloseBuildMenu();
+    }
     public void CloseBuildMenu()
     {
         GridClicksHandler.instance.CloseBuildMenu();
