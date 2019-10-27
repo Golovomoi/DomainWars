@@ -63,13 +63,13 @@ public class TerrainGenerator : MonoBehaviour
             switch (genTileType)
             {
                 case 0:
-                    AddResource(diamondPrefab, GameTile.TileType.Diamonds, pos);
+                    AddResource(diamondPrefab, GameTile.ResourceType.Diamonds, pos);
                     break;
                 case 1:
-                    AddResource(forcePrefab, GameTile.TileType.Force, pos);
+                    AddResource(forcePrefab, GameTile.ResourceType.Force, pos);
                     break;
                 case 2:
-                    AddResource(woodPrefab, GameTile.TileType.Wood, pos);
+                    AddResource(woodPrefab, GameTile.ResourceType.Wood, pos);
                     break;
             }
         }
@@ -83,7 +83,7 @@ public class TerrainGenerator : MonoBehaviour
     {
         GameTile gameTile = GameFieldTiles.instance.tiles[spawnPos];
         PlayersInteractions.instance.AddPlayerColor(playerId, Random.ColorHSV());
-        PlayersInteractions.instance.AddCapital(spawnPos, gameTile, playerId);
+        PlayersInteractions.instance.AddPlayer(spawnPos, playerId);
     }
     private Vector3Int FindSpawnPosition(Vector3Int spawnPos)
     {
@@ -104,10 +104,11 @@ public class TerrainGenerator : MonoBehaviour
         }
         return initialSpawnPos;
     }
-    private void AddResource(GameObject resourceGameObject, GameTile.TileType resourceType, Vector3Int pos)
+    private void AddResource(GameObject resourceGameObject, GameTile.ResourceType resourceType, Vector3Int pos)
     {
         GameTile gameTile = GameFieldTiles.instance.tiles[pos];
-        gameTile.GameFieldTileType = resourceType;
+        gameTile.GameFieldTileType = GameTile.TileType.Resource;
+        gameTile.ResType = resourceType;
         gameTile.tileGameObject = Instantiate(resourceGameObject, gameField.CellToLocal(pos), Quaternion.identity);
         gameTile.tileGameObject.transform.parent = gameField.transform;
     }

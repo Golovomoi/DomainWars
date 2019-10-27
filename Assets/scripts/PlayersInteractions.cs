@@ -5,8 +5,17 @@ using UnityEngine;
 public class PlayersInteractions : MonoBehaviour
 {
     public static PlayersInteractions instance;
-    // May Be move to GameFieldTiles;
+    // Should be mutable struct or class?
+    struct PlayerResources
+    {
+        public int Diamonds;
+        public int Wood;
+        public int Force;
+    }
+    private Dictionary<int, PlayerResources> PlayersResources = new Dictionary<int, PlayerResources>();
+    // May Be move colors to GameFieldTiles;
     private Dictionary<int, Color> PlayersColors = new Dictionary<int, Color>();
+    private HashSet<Vector3Int> OwnedResources = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> InvadeBuildings = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> DefenceBuildings = new HashSet<Vector3Int>();
     private HashSet<Vector3Int> OcupyBuildings = new HashSet<Vector3Int>();
@@ -43,6 +52,7 @@ public class PlayersInteractions : MonoBehaviour
         IncreseGlobalInfluence();
         IncreseLocalInfluence();
         ExpandBorders();
+        CalculateResources();
     }
     public bool TryBuildInvadeStruct(Vector3Int buildPos, int playerId)
     {
@@ -76,7 +86,18 @@ public class PlayersInteractions : MonoBehaviour
         }
             return false;
     }
-    public void AddCapital(Vector3Int capitalPos, GameTile gameTile, int playerId)
+    public void AddPlayer(Vector3Int capitalPos, int playerId)
+    {
+        AddCapital(capitalPos, playerId);
+        PlayerResources playerResources = new PlayerResources
+        {
+            Diamonds = 0,
+            Force = 0,
+            Wood = 0
+        };
+        PlayersResources.Add(playerId, playerResources);
+    }
+    private void AddCapital(Vector3Int capitalPos, int playerId)
     {
         Capitals.Add(capitalPos);
         GameFieldTiles.instance.AddCapitalStructure(capitalPos, playerId);
@@ -85,6 +106,46 @@ public class PlayersInteractions : MonoBehaviour
     public void AddPlayerColor(int playerId, Color playerColor)
     {
         PlayersColors.Add(playerId, playerColor);
+    }
+    public int GetPlayerDiamonds(int playerId)
+    {
+        return PlayersResources[playerId].Diamonds;
+    }
+    public int GetPlayerWood(int playerId)
+    {
+        return PlayersResources[playerId].Wood;
+    }
+    public int GetPlayerForce(int playerId)
+    {
+        return PlayersResources[playerId].Force;
+    }
+    private void AddOwnedResource(Vector3Int resPos)
+    {
+        if (!OwnedResources.Contains(resPos))
+        {
+            OwnedResources.Add(resPos);
+        }
+    }
+    private void CalculateResources()
+    {
+        foreach (var resPos in OwnedResources)
+        {
+            GameTile gameTile = GameFieldTiles.instance.tiles[resPos];
+            PlayerResources playerResources = PlayersResources[gameTile.OwnerId];
+            switch (gameTile.ResType)
+            {
+                case GameTile.ResourceType.Diamonds:
+                    playerResources.Diamonds += 1;
+                    break;
+                case GameTile.ResourceType.Wood:
+                    playerResources.Wood += 1;
+                    break;
+                case GameTile.ResourceType.Force:
+                    playerResources.Force += 1;
+                    break;
+            }
+            PlayersResources[gameTile.OwnerId] = playerResources;
+        }
     }
     private void ExpandBorders()
     {
@@ -241,6 +302,10 @@ public class PlayersInteractions : MonoBehaviour
                 gameTile.OwnerInfluence = gameTile.InvaderInfluence;
                 gameTile.InvaderInfluence = 0;
                 GameFieldTiles.instance.SetTileColor(gameTile.LocalPlace, PlayersColors[playerId]);
+                if (gameTile.GameFieldTileType == GameTile.TileType.Resource)
+                {
+                    AddOwnedResource(gameTile.LocalPlace);
+                }
             }
         }
     }
