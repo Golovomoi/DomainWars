@@ -95,6 +95,7 @@ public class GridClicksHandler : MonoBehaviour, IPointerClickHandler, IPointerDo
         tilemap.SetTileFlags(SelectedField, TileFlags.None);
         tilemap.SetColor(SelectedField, SelectedFieldOriginColor);
         SelectedField = fieldPos;
+        PlayerBehavior.instance.SelectedField = SelectedField;
         tilemap.SetTileFlags(SelectedField, TileFlags.None);
         SelectedFieldOriginColor = tilemap.GetColor(SelectedField);
         tilemap.SetColor(SelectedField, SelectionColor);
