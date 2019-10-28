@@ -36,6 +36,7 @@ public class PinchToZoom : MonoBehaviour
 
             // Make sure the orthographic size never drops below zero.
             camera.orthographicSize = Mathf.Max(camera.orthographicSize, minZoomValue);
+            camera.orthographicSize = Mathf.Min(camera.orthographicSize, maxZoomValue);
         }
     }
 }

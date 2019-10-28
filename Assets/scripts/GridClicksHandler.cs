@@ -8,6 +8,7 @@ public class GridClicksHandler : MonoBehaviour, IPointerClickHandler, IPointerDo
 {
     public Tilemap tilemap;
     public Canvas buildMenuCanvas;
+    public Canvas fieldInfoCanvas;
     private float pointerDownTime;
     public static GridClicksHandler instance;
     public Color SelectionColor;
@@ -66,27 +67,54 @@ public class GridClicksHandler : MonoBehaviour, IPointerClickHandler, IPointerDo
         _ = new Vector3Int();
         Vector3Int currentCellPos = tilemap.WorldToCell(Camera.main.ScreenToWorldPoint(clickPos));
 
-        //SelectedField = currentCellPos;
-
-        //Debug.Log("Event data up time: " + Time.realtimeSinceStartup); (Time.realtimeSinceStartup - pointerDownTime < 0.5f)
-        if ((currentCellPos  == pressCell) && !buildMenuCanvas.enabled)
+        if ((currentCellPos == pressCell) && IsAnyCanvasEnabled())
+            CloseAllMenus();
+        if (currentCellPos  == pressCell)
         {
             SetSelecetedField(currentCellPos);
-            _ = new Vector3();
-            Vector3 buildCanvasPos = tilemap.CellToWorld(currentCellPos);
-            var rect = buildMenuCanvas.transform as RectTransform;
-            //buildCanvasPos.x += rect.sizeDelta.x / 10000 * rect.localScale.x;
-            buildCanvasPos.y += rect.sizeDelta.y / 2 * rect.localScale.y;
-            buildMenuCanvas.transform.SetPositionAndRotation(buildCanvasPos, Quaternion.identity);
-            buildMenuCanvas.enabled = true;
-            //Debug.Log(rect.localScale.x);
-            //Debug.Log("Position: " + eventData.position);
-            //Debug.Log("Press Position: " + eventData.pressPosition);
+            if (GameFieldTiles.instance.tiles[SelectedField].OwnerId == PlayerBehavior.instance.PlayerId && GameFieldTiles.instance.tiles[SelectedField].GameFieldTileType == GameTile.TileType.Terrain)
+                OpenMenu(buildMenuCanvas);
+            else
+                OpenMenu(fieldInfoCanvas);
+
         }
     }
-    public void CloseBuildMenu()
+    private void OpenMenu(Canvas canvas)
+    {
+        _ = new Vector3();
+        Vector3 buildCanvasPos = tilemap.CellToWorld(SelectedField);
+        var rect = canvas.transform as RectTransform;
+        //buildCanvasPos.x += rect.sizeDelta.x / 10000 * rect.localScale.x;
+        buildCanvasPos.y += rect.sizeDelta.y / 2 * rect.localScale.y;
+        canvas.transform.SetPositionAndRotation(buildCanvasPos, Quaternion.identity);
+        canvas.enabled = true;
+        //Debug.Log(rect.localScale.x);
+        //Debug.Log("Position: " + eventData.position);
+        //Debug.Log("Press Position: " + eventData.pressPosition);
+    }
+    public void OpenBuildMenu()
+    {
+        if (GameFieldTiles.instance.tiles[SelectedField].OwnerId == PlayerBehavior.instance.PlayerId && GameFieldTiles.instance.tiles[SelectedField].GameFieldTileType == GameTile.TileType.Terrain)
+        {
+            CloseAllMenus();
+            SetSelecetedField(SelectedField);
+            OpenMenu(buildMenuCanvas);
+        }
+    }
+    public void OpenFieldInfo()
+    {
+        CloseAllMenus();
+        SetSelecetedField(SelectedField);
+        OpenMenu(fieldInfoCanvas);
+    }
+    private bool IsAnyCanvasEnabled()
+    {
+        return buildMenuCanvas.enabled || fieldInfoCanvas.enabled;
+    }
+    public void CloseAllMenus()
     {
         buildMenuCanvas.enabled = false;
+        fieldInfoCanvas.enabled = false;
         tilemap.SetTileFlags(SelectedField, TileFlags.None);
         tilemap.SetColor(SelectedField, SelectedFieldOriginColor);
     }

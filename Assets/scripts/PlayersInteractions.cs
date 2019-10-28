@@ -86,6 +86,11 @@ public class PlayersInteractions : MonoBehaviour
         }
             return false;
     }
+    public bool TryUpgradeStructure(Vector3Int structPos, int playerId)
+    {
+        GameTile gameTile = GameFieldTiles.instance.tiles[structPos];
+        return false;
+    }
     public void AddPlayer(Vector3Int capitalPos, int playerId)
     {
         AddCapital(capitalPos, playerId);
@@ -154,14 +159,14 @@ public class PlayersInteractions : MonoBehaviour
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.Capital)
             {
-                ChangelInfluenceByBuilding(buildingPos, 4, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 3, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
         foreach (var buildingPos in OcupyBuildings)
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.OcupyBld)
             {
-                ChangelInfluenceByBuilding(buildingPos, 2, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 1, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
     }
@@ -172,14 +177,14 @@ public class PlayersInteractions : MonoBehaviour
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.Capital)
             {
-                ChangelInfluenceByBuilding(buildingPos, 4, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 3, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
         foreach (var buildingPos in DefenceBuildings)
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.DefenceBld)
             {
-                ChangelInfluenceByBuilding(buildingPos, 2, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 1, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
     }
@@ -190,14 +195,14 @@ public class PlayersInteractions : MonoBehaviour
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.Capital)
             {
-                ChangelInfluenceByBuilding(buildingPos, 4, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 3, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
         foreach (var buildingPos in InvadeBuildings)
         {
             if (GameFieldTiles.instance.tiles[buildingPos].GameFieldTileType == GameTile.TileType.Structure && GameFieldTiles.instance.tiles[buildingPos].StructType == GameTile.StructureType.InvadeBld)
             {
-                ChangelInfluenceByBuilding(buildingPos, 2, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
+                ChangelInfluenceByBuilding(buildingPos, GameFieldTiles.instance.tiles[buildingPos].BuildingLvl + 1, GameFieldTiles.instance.tiles[buildingPos].OwnerId, tileFunc);
             }
         }
     }

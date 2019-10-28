@@ -76,7 +76,7 @@ public class GameFieldTiles : MonoBehaviour
         gameTile.OwnerInfluence = 1000;
         gameTile.GameFieldTileType = GameTile.TileType.Structure;
         gameTile.StructType = GameTile.StructureType.Capital;
-        gameTile.BuildingLvl = 4;
+        gameTile.BuildingLvl = 1;
         if (gameTile.tileGameObject != null)
             Destroy(gameTile.tileGameObject);
         gameTile.tileGameObject = Instantiate(capitalPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
@@ -87,7 +87,7 @@ public class GameFieldTiles : MonoBehaviour
         GameTile gameTile = tiles[buildPos];
         gameTile.GameFieldTileType = GameTile.TileType.Structure;
         gameTile.StructType = GameTile.StructureType.InvadeBld;
-        gameTile.BuildingLvl = 2;
+        gameTile.BuildingLvl = 1;
         if (gameTile.tileGameObject != null)
             Destroy(gameTile.tileGameObject);
         gameTile.tileGameObject = Instantiate(InvadeStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
@@ -97,7 +97,7 @@ public class GameFieldTiles : MonoBehaviour
         GameTile gameTile = tiles[buildPos];
         gameTile.GameFieldTileType = GameTile.TileType.Structure;
         gameTile.StructType = GameTile.StructureType.DefenceBld;
-        gameTile.BuildingLvl = 2;
+        gameTile.BuildingLvl = 1;
         if (gameTile.tileGameObject != null)
             Destroy(gameTile.tileGameObject);
         gameTile.tileGameObject = Instantiate(DefenceStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);
@@ -107,7 +107,7 @@ public class GameFieldTiles : MonoBehaviour
         GameTile gameTile = tiles[buildPos];
         gameTile.GameFieldTileType = GameTile.TileType.Structure;
         gameTile.StructType = GameTile.StructureType.OcupyBld;
-        gameTile.BuildingLvl = 2;
+        gameTile.BuildingLvl = 1;
         if (gameTile.tileGameObject != null)
             Destroy(gameTile.tileGameObject);
         gameTile.tileGameObject = Instantiate(OcupyStructPrefab, tilemap.CellToLocal(buildPos), Quaternion.identity);

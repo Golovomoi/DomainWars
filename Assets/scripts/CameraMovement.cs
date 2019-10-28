@@ -26,6 +26,9 @@ public class CameraMovement : MonoBehaviour
         if (Input.touchCount == 1 && Input.GetTouch(0).phase == TouchPhase.Moved && !shouldntMoove)
         {
             Vector2 touchDeltaPosition = Input.GetTouch(0).deltaPosition;
+            //TODO: strict movement to stay in game 
+            if (transform.position.x - touchDeltaPosition.x * speed < -20)
+                touchDeltaPosition.x = 0;
             transform.Translate(-touchDeltaPosition.x * speed, -touchDeltaPosition.y * speed, 0);
         }
 

@@ -17,6 +17,11 @@ public class BuildMenuHandler : MonoBehaviour
         
     }
 
+    public void ChangeCanvasClick()
+    {
+            GridClicksHandler.instance.OpenFieldInfo();
+    }
+
     public void BuildInvadeClick()
     {
         
@@ -37,6 +42,6 @@ public class BuildMenuHandler : MonoBehaviour
     }
     public void CloseBuildMenu()
     {
-        GridClicksHandler.instance.CloseBuildMenu();
+        GridClicksHandler.instance.CloseAllMenus();
     }
 }
