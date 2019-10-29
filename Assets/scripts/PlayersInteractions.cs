@@ -264,9 +264,9 @@ public class PlayersInteractions : MonoBehaviour
         {
             Vector3Int currentField = BfQueue.Dequeue();
             int distanceFromBuilding = GameFieldTiles.instance.TileDistance(tilePos, currentField);
-            //Debug.Log("distance from " + tilePos + "to " + currentField + "is: "+  distanceFromBuilding);
-            //Debug.Log("in cycle: " + currentField);
             GameTile gameTile = GameFieldTiles.instance.tiles[currentField];
+            if (gameTile.GameFieldTileType == GameTile.TileType.Border)
+                continue;
             tileFunc(gameTile, influenceValue - distanceFromBuilding + 1, playerId);
             if (distanceFromBuilding < influenceValue)
             {

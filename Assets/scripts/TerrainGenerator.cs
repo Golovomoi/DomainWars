@@ -9,10 +9,12 @@ public class TerrainGenerator : MonoBehaviour
     public int gameFieldSize = 50;
     public Tilemap gameField;
     public Tile TerrainTile;
+    public Tile BorderTile;
     public GameObject diamondPrefab;
     public GameObject forcePrefab;
     public GameObject woodPrefab;
     public GameObject playerPrefab;
+    public GameObject GreedyBotPrefab;
     public GameObject capitalPrefab;
     public int playersCount;
     //private GameTile tgTile;
@@ -24,9 +26,16 @@ public class TerrainGenerator : MonoBehaviour
         //GameObject plGameobj = Instantiate(playerPrefab, gameField.CellToWorld(FindSpawnPosition(new Vector3Int { x = -gameFieldSize/ 4, y = gameFieldSize / 4, z = 0 })), Quaternion.identity);
         //PlayerBehavior playerBehaviorScript = plGameobj.GetComponent<PlayerBehavior>();
         //playerBehaviorScript.playerId = playerId;
-        Vector3Int spawnPos = FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4 + 3, z = 0 });
+        Vector3Int spawnPos = FindSpawnPosition(new Vector3Int { x = -gameFieldSize / 4, y = gameFieldSize / 4, z = 0 });
         SpawnCapital(spawnPos, playerId);
         PlayerBehavior.instance.PlayerId = playerId;
+        playerId++;
+        spawnPos = FindSpawnPosition(new Vector3Int { x = gameFieldSize / 4, y = -gameFieldSize / 4, z = 0 });
+        SpawnCapital(spawnPos, playerId);
+        GameObject botObject = Instantiate(GreedyBotPrefab, spawnPos, Quaternion.identity);
+        GreedyBotAI greedyBotAI = botObject.GetComponent<GreedyBotAI>();
+        greedyBotAI.BotId = playerId;
+
     }
 
     void SpawnResources()
@@ -39,21 +48,29 @@ public class TerrainGenerator : MonoBehaviour
         //BoundsInt gameArea = new BoundsInt(gameField.origin, gameField.size);
         foreach (Vector3Int pos in gameField.cellBounds.allPositionsWithin)
         {
-            gameField.SetTile(new Vector3Int(pos.x, pos.y, pos.z), TerrainTile);
-
             var gameTile = new GameTile
             {
                 LocalPlace = pos,
                 AdditionalField = 0,
                 OwnerId = 0,
-                OwnerInfluence = 10,
+                OwnerInfluence = 0,
                 GameFieldTileType = GameTile.TileType.Terrain,
                 InvaderId = 0,
                 InvaderInfluence = 0,
                 StructType = GameTile.StructureType.None,
                 BuildingLvl = 0
             };
+            if (pos.x == gameField.origin.x || pos.x == gameField.origin.x + gameField.size.x - 1 ||
+                pos.y == gameField.origin.y || pos.y == gameField.origin.y + gameField.size.y - 1)
+            {
+                gameTile.GameFieldTileType = GameTile.TileType.Border;
+                gameField.SetTile(new Vector3Int(pos.x, pos.y, pos.z), BorderTile);
+                GameFieldTiles.instance.tiles.Add(pos, gameTile);
+                continue;
+            }
             GameFieldTiles.instance.tiles.Add(pos, gameTile);
+            
+            gameField.SetTile(new Vector3Int(pos.x, pos.y, pos.z), TerrainTile);
 
             //var tileType = GameTile.TileType.None;
             int genTileType = Random.Range(0, 100) / 5;
