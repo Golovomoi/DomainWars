@@ -57,8 +57,12 @@ public class PlayersInteractions : MonoBehaviour
     public bool TryBuildInvadeStruct(Vector3Int buildPos, int playerId)
     {
         // TODO: Add conditions
-        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain)
+        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain &&
+            PlayersResources[playerId].Force >= 1000)
         {
+            PlayerResources playerResources = PlayersResources[playerId];
+            playerResources.Force -= 1000;
+            PlayersResources[playerId] = playerResources;
             GameFieldTiles.instance.AddInvadeStructure(buildPos);
             InvadeBuildings.Add(buildPos);
             return true;
@@ -68,8 +72,12 @@ public class PlayersInteractions : MonoBehaviour
     }
     public bool TryBuildDefStruct(Vector3Int buildPos, int playerId)
     {
-        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain)
+        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain &&
+            PlayersResources[playerId].Wood >= 1000)
         {
+            PlayerResources playerResources = PlayersResources[playerId];
+            playerResources.Wood -= 1000;
+            PlayersResources[playerId] = playerResources;
             GameFieldTiles.instance.AddDefenceStructure(buildPos);
             DefenceBuildings.Add(buildPos);
             return true;
@@ -78,8 +86,12 @@ public class PlayersInteractions : MonoBehaviour
     }
     public bool TryBuildOcupyStruct(Vector3Int buildPos, int playerId)
     {
-        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain)
+        if (GameFieldTiles.instance.tiles[buildPos].OwnerId == playerId && GameFieldTiles.instance.tiles[buildPos].GameFieldTileType == GameTile.TileType.Terrain && 
+            PlayersResources[playerId].Diamonds >= 1000)
         {
+            PlayerResources playerResources = PlayersResources[playerId];
+            playerResources.Diamonds -= 1000;
+            PlayersResources[playerId] = playerResources;
             GameFieldTiles.instance.AddOcupyStructure(buildPos);
             OcupyBuildings.Add(buildPos);
             return true;
@@ -89,6 +101,42 @@ public class PlayersInteractions : MonoBehaviour
     public bool TryUpgradeStructure(Vector3Int structPos, int playerId)
     {
         GameTile gameTile = GameFieldTiles.instance.tiles[structPos];
+        if (gameTile.OwnerId == playerId && gameTile.GameFieldTileType == GameTile.TileType.Structure)
+        {
+            bool upgraded = false;
+            PlayerResources playerResources = PlayersResources[playerId];
+            int upgradeCost = (gameTile.BuildingLvl * gameTile.BuildingLvl + 1) * 1000;
+            switch (gameTile.StructType)
+            {
+                case GameTile.StructureType.DefenceBld:
+                    if (playerResources.Wood >= upgradeCost)
+                    {
+                        playerResources.Wood -= upgradeCost;
+                        upgraded = true;
+                    }
+                    break;
+                case GameTile.StructureType.InvadeBld:
+                    if (playerResources.Force >= upgradeCost)
+                    {
+                        playerResources.Force -= upgradeCost;
+                        upgraded = true;
+                    }
+                    break;
+                case GameTile.StructureType.OcupyBld:
+                    if (playerResources.Diamonds >= upgradeCost)
+                    {
+                        playerResources.Diamonds -= upgradeCost;
+                        upgraded = true;
+                    }
+                    break;
+            }
+            if (upgraded)
+            {
+                gameTile.BuildingLvl++;
+                PlayersResources[playerId] = playerResources;
+                return true;
+            }
+        }
         return false;
     }
     public void AddPlayer(Vector3Int capitalPos, int playerId)
@@ -96,9 +144,9 @@ public class PlayersInteractions : MonoBehaviour
         AddCapital(capitalPos, playerId);
         PlayerResources playerResources = new PlayerResources
         {
-            Diamonds = 0,
-            Force = 0,
-            Wood = 0
+            Diamonds = 10000,
+            Force = 10000,
+            Wood = 10000
         };
         PlayersResources.Add(playerId, playerResources);
     }

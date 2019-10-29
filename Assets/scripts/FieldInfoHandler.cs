@@ -37,6 +37,11 @@ public class FieldInfoHandler : MonoBehaviour
     {
         GridClicksHandler.instance.CloseAllMenus();
     }
+    public void UpgradeClick()
+    {
+        PlayersInteractions.instance.TryUpgradeStructure(GridClicksHandler.instance.SelectedField, PlayerBehavior.instance.PlayerId);
+        SetGameFieldInfo();
+    }
     private void SetGameFieldInfo()
     {
         GameTile gameTile = GameFieldTiles.instance.tiles[GridClicksHandler.instance.SelectedField];
@@ -51,7 +56,7 @@ public class FieldInfoHandler : MonoBehaviour
         text = gameTile.BuildingLvl.ToString();
         BuildingLvl.text = string.Format("Building Lvl: {0}", text);
 
-        text = (gameTile.BuildingLvl * gameTile.BuildingLvl * 1000).ToString();
+        text = ((gameTile.BuildingLvl * gameTile.BuildingLvl + 1) * 1000).ToString();
         Upgrade.text = string.Format("Upgrade  (cosst: {0})", text);
 
         text = gameTile.OwnerId.ToString();
