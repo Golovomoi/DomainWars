@@ -359,6 +359,8 @@ MonoBehaviour:
     type: 3}
   playerPrefab: {fileID: 6683713171932940549, guid: b50b6d9eb59b01140b16012e608e1788,
     type: 3}
+  GreedyBotPrefab: {fileID: 8488930526192005758, guid: 04fec0ea83817c34fa465c16320ebfc4,
+    type: 3}
   capitalPrefab: {fileID: 1108576247755452149, guid: d0495b3f49004e94fab02df56981826b,
     type: 3}
   playersCount: 4
